@@ -1,0 +1,126 @@
+export function getOrganizationSchema(locale: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Hotel',
+    '@id': 'https://theopodhotel.com/#organization',
+    name: 'The O Pod Hotel',
+    alternateName: 'O Pod Hotel Tel Aviv',
+    url: 'https://theopodhotel.com',
+    logo: 'https://theopodhotel.com/logo.png',
+    image: 'https://theopodhotel.com/images/hero.jpg',
+    description: {
+      he: 'מלון קפסולות מודרני בתל אביב, צעדים מחוף הים התיכון',
+      en: 'Modern pod hotel in Tel Aviv, steps from the Mediterranean beach',
+      fr: 'Hôtel capsule moderne à Tel Aviv, à deux pas de la plage méditerranéenne',
+    }[locale],
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Herbert Samuel St',
+      addressLocality: 'Tel Aviv',
+      postalCode: '63000',
+      addressCountry: 'IL',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 32.0798,
+      longitude: 34.7694,
+    },
+    telephone: '+972-3-XXX-XXXX',
+    email: 'hello@theopodhotel.com',
+    priceRange: '₪₪',
+    starRating: {
+      '@type': 'Rating',
+      ratingValue: '4',
+    },
+    amenityFeature: [
+      { '@type': 'LocationFeatureSpecification', name: 'Free WiFi', value: true },
+      { '@type': 'LocationFeatureSpecification', name: '24/7 Reception', value: true },
+      { '@type': 'LocationFeatureSpecification', name: 'Air Conditioning', value: true },
+      { '@type': 'LocationFeatureSpecification', name: 'Secure Lockers', value: true },
+    ],
+    sameAs: [
+      'https://www.instagram.com/theopodhotel',
+      'https://www.facebook.com/theopodhotel',
+      'https://www.booking.com/hotel/il/the-o-pod-hotel.html',
+      'https://www.google.com/maps/place/The+O+Pod+Hotel',
+    ],
+  };
+}
+
+export function getWebsiteSchema(locale: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': 'https://theopodhotel.com/#website',
+    url: 'https://theopodhotel.com',
+    name: 'The O Pod Hotel',
+    inLanguage: locale === 'he' ? 'he-IL' : locale === 'fr' ? 'fr-FR' : 'en-US',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `https://theopodhotel.com/${locale}/capsules?search={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
+  };
+}
+
+export function getBreadcrumbSchema(items: Array<{ name: string; url: string }>) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+}
+
+export function getCapsuleSchema(
+  capsule: any,
+  locale: string,
+  currency: string = 'ILS'
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: capsule.name[locale],
+    description: capsule.description?.[locale] || capsule.short[locale],
+    image: capsule.images.map((img: string) => `https://theopodhotel.com${img}`),
+    offers: {
+      '@type': 'Offer',
+      price: capsule.price_from[currency],
+      priceCurrency: currency,
+      availability: 'https://schema.org/InStock',
+      url: `https://theopodhotel.com/${locale}/capsules/${capsule.slug}`,
+      priceValidUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
+    },
+    brand: {
+      '@type': 'Brand',
+      name: 'The O Pod Hotel',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.5',
+      reviewCount: '120',
+    },
+  };
+}
+
+export function getFAQSchema(faqItems: Array<{ q: Record<string, string>; a: Record<string, string> }>, locale: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.q[locale],
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.a[locale],
+      },
+    })),
+  };
+}

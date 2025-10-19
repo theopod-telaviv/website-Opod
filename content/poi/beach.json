@@ -1,0 +1,19 @@
+{
+  "id": "beach",
+  "title": {
+    "he": "חוף גורדון",
+    "en": "Gordon Beach",
+    "fr": "Plage Gordon"
+  },
+  "category": "beach",
+  "distance_min_walk": 5,
+  "lat": 32.0798,
+  "lng": 34.7694,
+  "image": "/images/poi/beach.jpg",
+  "desc": {
+    "he": "החוף הכי קרוב למלון! חול רך, גלישה, כדורעף חופים ובתי קפה על הטיילת. מושלם להתחלת היום או לסיום ערב.",
+    "en": "The closest beach to the hotel! Soft sand, surfing, beach volleyball, and boardwalk cafes. Perfect for starting your day or ending an evening.",
+    "fr": "La plage la plus proche de l'hôtel ! Sable doux, surf, beach-volley et cafés sur la promenade. Parfaite pour commencer la journée ou terminer la soirée."
+  },
+  "maps_url": "https://maps.google.com/?q=Gordon+Beach+Tel+Aviv"
+}

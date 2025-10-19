@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "q": {
+        "he": "מה זמני הצ'ק-אין והצ'ק-אאוט?",
+        "en": "What are the check-in and check-out times?",
+        "fr": "Quelles sont les heures d'arrivée et de départ ?"
+      },
+      "a": {
+        "he": "צ'ק-אין: 15:00 | צ'ק-אאוט: 11:00. אנחנו פתוחים 24/7 ולכן הגעה מאוחרת אפשרית בכל שעה.",
+        "en": "Check-in: 3:00 PM | Check-out: 11:00 AM. We're open 24/7 so late arrival is possible at any time.",
+        "fr": "Arrivée : 15h00 | Départ : 11h00. Nous sommes ouverts 24h/24 donc l'arrivée tardive est possible à tout moment."
+      }
+    },
+    {
+      "q": {
+        "he": "האם יש חניה במלון?",
+        "en": "Is there parking at the hotel?",
+        "fr": "Y a-t-il un parking à l'hôtel ?"
+      },
+      "a": {
+        "he": "אין חניה ייעודית במלון. ישנן חניות ציבוריות בתשלום בסביבה הקרובה.",
+        "en": "There is no dedicated parking at the hotel. There are paid public parking lots nearby.",
+        "fr": "Il n'y a pas de parking dédié à l'hôtel. Il existe des parkings publics payants à proximité."
+      }
+    },
+    {
+      "q": {
+        "he": "האם מגבות כלולות?",
+        "en": "Are towels included?",
+        "fr": "Les serviettes sont-elles incluses ?"
+      },
+      "a": {
+        "he": "כן! אנחנו מספקים מגבות נקיות לכל אורח ללא עלות נוספת.",
+        "en": "Yes! We provide clean towels for every guest at no extra cost.",
+        "fr": "Oui ! Nous fournissons des serviettes propres pour chaque client sans frais supplémentaires."
+      }
+    },
+    {
+      "q": {
+        "he": "האם יש Wi-Fi חינם?",
+        "en": "Is there free Wi-Fi?",
+        "fr": "Y a-t-il le Wi-Fi gratuit ?"
+      },
+      "a": {
+        "he": "כן, Wi-Fi מהיר וחינמי זמין בכל רחבי המלון.",
+        "en": "Yes, fast and free Wi-Fi is available throughout the hotel.",
+        "fr": "Oui, le Wi-Fi rapide et gratuit est disponible dans tout l'hôtel."
+      }
+    },
+    {
+      "q": {
+        "he": "האם יש ארוחת בוקר?",
+        "en": "Is breakfast included?",
+        "fr": "Le petit-déjeuner est-il inclus ?"
+      },
+      "a": {
+        "he": "לא מוגש ארוחת בוקר במלון, אך ישנם בתי קפה ומאפיות מעולים ברדיוס הליכה של דקות ספורות.",
+        "en": "Breakfast is not served at the hotel, but there are excellent cafes and bakeries within a few minutes' walk.",
+        "fr": "Le petit-déjeuner n'est pas servi à l'hôtel, mais il y a d'excellents cafés et boulangeries à quelques minutes à pied."
+      }
+    },
+    {
+      "q": {
+        "he": "האם אפשר לשמור חפצים לפני הצ'ק-אין או אחרי הצ'ק-אאוט?",
+        "en": "Can I store luggage before check-in or after check-out?",
+        "fr": "Puis-je entreposer mes bagages avant l'arrivée ou après le départ ?"
+      },
+      "a": {
+        "he": "כן, יש לנו לוקרים מאובטחים לאחסון חפצים בחינם.",
+        "en": "Yes, we have secure lockers for storing belongings free of charge.",
+        "fr": "Oui, nous avons des casiers sécurisés pour entreposer vos affaires gratuitement."
+      }
+    },
+    {
+      "q": {
+        "he": "מה גיל המינימום להזמנה?",
+        "en": "What is the minimum age for booking?",
+        "fr": "Quel est l'âge minimum pour réserver ?"
+      },
+      "a": {
+        "he": "גיל המינימום להזמנה הוא 18 שנים.",
+        "en": "The minimum age for booking is 18 years.",
+        "fr": "L'âge minimum pour réserver est de 18 ans."
+      }
+    },
+    {
+      "q": {
+        "he": "איך רחוק החוף?",
+        "en": "How far is the beach?",
+        "fr": "À quelle distance se trouve la plage ?"
+      },
+      "a": {
+        "he": "חוף גורדון נמצא במרחק של כ-5 דקות הליכה מהמלון.",
+        "en": "Gordon Beach is about a 5-minute walk from the hotel.",
+        "fr": "La plage Gordon est à environ 5 minutes à pied de l'hôtel."
+      }
+    },
+    {
+      "q": {
+        "he": "מה מדיניות הביטולים?",
+        "en": "What is the cancellation policy?",
+        "fr": "Quelle est la politique d'annulation ?"
+      },
+      "a": {
+        "he": "ביטול חינם עד 48 שעות לפני תאריך ההגעה. ביטולים מאוחרים יותר יחויבו בלילה אחד.",
+        "en": "Free cancellation up to 48 hours before arrival date. Later cancellations will be charged for one night.",
+        "fr": "Annulation gratuite jusqu'à 48 heures avant la date d'arrivée. Les annulations ultérieures seront facturées pour une nuit."
+      }
+    },
+    {
+      "q": {
+        "he": "האם יש שירותים פרטיים בקפסולה?",
+        "en": "Are there private bathrooms in the pod?",
+        "fr": "Y a-t-il une salle de bain privée dans la capsule ?"
+      },
+      "a": {
+        "he": "לא, השירותים והמקלחות משותפים ונמצאים באזורים נפרדים למגדר. הם נקיים ומתוחזקים באופן קבוע.",
+        "en": "No, bathrooms and showers are shared and located in gender-separated areas. They are clean and regularly maintained.",
+        "fr": "Non, les toilettes et douches sont partagées et situées dans des zones séparées par genre. Elles sont propres et régulièrement entretenues."
+      }
+    }
+  ]
+}

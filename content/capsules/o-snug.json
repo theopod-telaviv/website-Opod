@@ -1,0 +1,43 @@
+{
+  "id": "o-snug",
+  "order": 2,
+  "name": {
+    "he": "O Snug - חדר זוגי",
+    "en": "O Snug - Double Room",
+    "fr": "O Snug - Chambre Double"
+  },
+  "slug": "o-snug",
+  "occupancy": 2,
+  "bed": "0.90 x 2.00 m",
+  "dimensions_m": {
+    "w": 1.35,
+    "l": 2.15,
+    "h": 1.15
+  },
+  "sea_view": false,
+  "accessible": false,
+  "balcony": false,
+  "price_from": {
+    "ILS": 229,
+    "USD": 63,
+    "EUR": 58
+  },
+  "amenities": ["wifi", "towels", "lockers", "24_7_reception", "air_conditioning", "usb_charging", "reading_light"],
+  "images": [
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/1-%20O%20Tight%20-%20Chambre%20Simple/2-%20the-o-pod-hotel-tel-aviv-single-capsule-room.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/2-%20O%20Snug%20-%20Chambre%20double/1-the-o-pod-hotel-tel-aviv-double-capsule-room.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/2-%20O%20Snug%20-%20Chambre%20double/2-%20modern-double-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/2-%20O%20Snug%20-%20Chambre%20double/3-%20the-o-pod-hotel-tel-aviv-modern-o-snug-room.webp"
+  ],
+  "short": {
+    "he": "חדר זוגי מרווח עם נוחות מקסימלית.",
+    "en": "Spacious double room with maximum comfort.",
+    "fr": "Chambre double spacieuse avec confort maximal."
+  },
+  "description": {
+    "he": "O Snug מציעה חדר זוגי מרווח ונוח. עם מיטה זוגית איכותית, תאורת קריאה ייעודית ואחסון פרטי. אידיאלי לזוגות המחפשים מקום שקט ונוח.",
+    "en": "O Snug offers a spacious and comfortable double room. With a quality double bed, dedicated reading light, and private storage. Ideal for couples seeking a quiet and comfortable place.",
+    "fr": "O Snug offre une chambre double spacieuse et confortable. Avec un lit double de qualité, une lampe de lecture dédiée et un rangement privé. Idéale pour les couples recherchant un endroit calme et confortable."
+  },
+  "faq": []
+}

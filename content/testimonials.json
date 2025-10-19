@@ -1,0 +1,46 @@
+{
+  "reviews": [
+    {
+      "name": "Sarah M.",
+      "country": {
+        "en": "USA",
+        "fr": "États-Unis",
+        "he": "ארה\"ב"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Perfect location steps from the beach! The pods are clean, comfortable, and the staff is incredibly helpful. Best value in Tel Aviv.",
+        "fr": "Emplacement parfait à deux pas de la plage ! Les capsules sont propres, confortables et le personnel est incroyablement serviable. Meilleur rapport qualité-prix à Tel Aviv.",
+        "he": "מיקום מושלם צעדים מהחוף! הקפסולות נקיות, נוחות והצוות מועיל להפליא. הערך הטוב ביותר בתל אביב."
+      }
+    },
+    {
+      "name": "Tom K.",
+      "country": {
+        "en": "UK",
+        "fr": "Royaume-Uni",
+        "he": "בריטניה"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Loved the modern design and the 24/7 reception. Great for solo travelers. WiFi was fast, showers were clean. Will definitely come back!",
+        "fr": "J'ai adoré le design moderne et la réception 24/7. Parfait pour les voyageurs solo. Le WiFi était rapide, les douches étaient propres. Je reviendrai certainement !",
+        "he": "אהבתי את העיצוב המודרני והקבלה 24/7. נהדר לנוסעים יחידים. WiFi היה מהיר, המקלחות היו נקיות. בהחלט אחזור!"
+      }
+    },
+    {
+      "name": "Marie L.",
+      "country": {
+        "en": "France",
+        "fr": "France",
+        "he": "צרפת"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Excellent concept! The sea view capsule was amazing. You can hear the waves at night. Very safe with the lockers. Highly recommend!",
+        "fr": "Excellent concept ! La capsule avec vue sur la mer était incroyable. On peut entendre les vagues la nuit. Très sécurisé avec les casiers. Je recommande vivement !",
+        "he": "קונצפט מצוין! הקפסולה עם נוף לים הייתה מדהימה. אפשר לשמוע את הגלים בלילה. מאוד בטוח עם הלוקרים. ממליץ בחום!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "o-comfy",
+  "name": {
+    "he": "O Comfy - חדר זוגי גבוה",
+    "en": "O Comfy - Tall Double Room",
+    "fr": "O Comfy - Grande Chambre Double Haute"
+  },
+  "slug": "o-comfy",
+  "occupancy": 2,
+  "bed": "1.00 x 2.00 m",
+  "dimensions_m": {
+    "w": 1.50,
+    "l": 2.30,
+    "h": 1.30
+  },
+  "sea_view": false,
+  "accessible": true,
+  "balcony": false,
+  "price_from": {
+    "ILS": 259,
+    "USD": 71,
+    "EUR": 65
+  },
+  "amenities": ["wifi", "towels", "lockers", "24_7_reception", "air_conditioning", "usb_charging", "reading_light", "wheelchair_accessible", "wider_door"],
+  "images": [
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/7-%20%20O%20Comfy-%20Grande%20Chambre%20Double%20Haute/1-%20the-o-pod-hotel-tel-aviv-o-comfy-double-tall-accessible-room.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/7-%20%20O%20Comfy-%20Grande%20Chambre%20Double%20Haute/2-%20o-comfy-double-tall-accessible-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/7-%20%20O%20Comfy-%20Grande%20Chambre%20Double%20Haute/3%20-%20accessible-double-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/7-%20%20O%20Comfy-%20Grande%20Chambre%20Double%20Haute/4-%20tall-double-pod-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/7-%20%20O%20Comfy-%20Grande%20Chambre%20Double%20Haute/5-%20modern-double-tall-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/7-%20%20O%20Comfy-%20Grande%20Chambre%20Double%20Haute/6-%20spacious-accessible-room-the-o-pod-hotel-tel-aviv.webp"
+  ],
+  "short": {
+    "he": "חדר זוגי גבוה נגיש ומרווח לאנשים עם מוגבלות.",
+    "en": "Accessible and spacious tall double room for people with disabilities.",
+    "fr": "Grande chambre double haute accessible et spacieuse pour personnes à mobilité réduite."
+  },
+  "description": {
+    "he": "O Comfy תוכנן במיוחד עם נגישות מלאה. חדר זוגי גבוה עם כניסה רחבה, תקרה גבוהה, מיטה זוגית ושטח תמרון מספיק. כולל את כל השירותים שלנו עם התאמות מיוחדות לנוחות מקסימלית.",
+    "en": "O Comfy is specially designed with full accessibility. Tall double room with wide entrance, high ceiling, double bed, and sufficient maneuvering space. Includes all our amenities with special adaptations for maximum comfort.",
+    "fr": "O Comfy est spécialement conçue avec une accessibilité totale. Grande chambre double haute avec entrée large, plafond haut, lit double et espace de manœuvre suffisant. Comprend toutes nos commodités avec des adaptations spéciales pour un confort maximal."
+  },
+  "faq": []
+}

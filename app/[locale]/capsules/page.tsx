@@ -1,0 +1,64 @@
+import { getTranslations } from 'next-intl/server';
+import { CapsuleCard } from '@/components/capsules/CapsuleCard';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { getBreadcrumbSchema } from '@/lib/schema';
+import fs from 'fs';
+import path from 'path';
+
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  const t = await getTranslations({ locale, namespace: 'capsules' });
+
+  return {
+    title: `${t('title')} | The O Pod Hotel`,
+    description: 'Browse our range of modern pod accommodations in Tel Aviv. From compact solo pods to premium sea-view capsules.',
+  };
+}
+
+async function getCapsules() {
+  const capsulesDir = path.join(process.cwd(), 'content/capsules');
+  const files = fs.readdirSync(capsulesDir);
+
+  const capsules = files.map((file) => {
+    const content = fs.readFileSync(path.join(capsulesDir, file), 'utf-8');
+    return JSON.parse(content);
+  });
+
+  return capsules.sort((a, b) => a.price_from.ILS - b.price_from.ILS);
+}
+
+export default async function CapsulesPage({ params: { locale } }: { params: { locale: string } }) {
+  const t = await getTranslations({ locale, namespace: 'capsules' });
+  const capsules = await getCapsules();
+
+  const breadcrumbs = [
+    { name: 'Home', url: `https://theopodhotel.com/${locale}` },
+    { name: 'Capsules', url: `https://theopodhotel.com/${locale}/capsules` },
+  ];
+
+  return (
+    <>
+      <JsonLd data={getBreadcrumbSchema(breadcrumbs)} />
+
+      <section className="py-12 bg-[#F5EFE7]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-5xl font-bold text-[#1C1C1C] mb-4 font-manrope">
+            {t('title')}
+          </h1>
+          <p className="text-xl text-neutral-600">
+            Choose the perfect pod for your Tel Aviv adventure
+          </p>
+        </div>
+      </section>
+
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {capsules.map((capsule) => (
+              <CapsuleCard key={capsule.id} capsule={capsule} locale={locale} />
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
