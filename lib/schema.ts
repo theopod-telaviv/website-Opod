@@ -2,12 +2,12 @@ export function getOrganizationSchema(locale: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Hotel',
-    '@id': 'https://theopodhotel.com/#organization',
+    '@id': 'https://the-opod-hotel-telaviv.netlify.app/#organization',
     name: 'The O Pod Hotel',
     alternateName: 'O Pod Hotel Tel Aviv',
-    url: 'https://theopodhotel.com',
-    logo: 'https://theopodhotel.com/logo.png',
-    image: 'https://theopodhotel.com/images/hero.jpg',
+    url: 'https://the-opod-hotel-telaviv.netlify.app',
+    logo: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-favicon-512x512.png',
+    image: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-home.png',
     description: {
       he: 'מלון קפסולות מודרני בתל אביב, צעדים מחוף הים התיכון',
       en: 'Modern pod hotel in Tel Aviv, steps from the Mediterranean beach',
@@ -26,7 +26,7 @@ export function getOrganizationSchema(locale: string) {
       longitude: 34.7694,
     },
     telephone: '+972-3-XXX-XXXX',
-    email: 'hello@theopodhotel.com',
+    email: 'reservations@theopodhotel.com',
     priceRange: '₪₪',
     starRating: {
       '@type': 'Rating',
@@ -51,15 +51,15 @@ export function getWebsiteSchema(locale: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    '@id': 'https://theopodhotel.com/#website',
-    url: 'https://theopodhotel.com',
+    '@id': 'https://the-opod-hotel-telaviv.netlify.app/#website',
+    url: 'https://the-opod-hotel-telaviv.netlify.app',
     name: 'The O Pod Hotel',
     inLanguage: locale === 'he' ? 'he-IL' : locale === 'fr' ? 'fr-FR' : 'en-US',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `https://theopodhotel.com/${locale}/capsules?search={search_term_string}`,
+        urlTemplate: `https://the-opod-hotel-telaviv.netlify.app/${locale}/capsules?search={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -89,13 +89,13 @@ export function getCapsuleSchema(
     '@type': 'Product',
     name: capsule.name[locale],
     description: capsule.description?.[locale] || capsule.short[locale],
-    image: capsule.images.map((img: string) => `https://theopodhotel.com${img}`),
+    image: capsule.images,
     offers: {
       '@type': 'Offer',
       price: capsule.price_from[currency],
       priceCurrency: currency,
       availability: 'https://schema.org/InStock',
-      url: `https://theopodhotel.com/${locale}/capsules/${capsule.slug}`,
+      url: `https://the-opod-hotel-telaviv.netlify.app/${locale}/capsules/${capsule.slug}`,
       priceValidUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
     },
     brand: {

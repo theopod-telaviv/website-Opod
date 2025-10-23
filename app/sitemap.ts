@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://theopodhotel.com';
+  const baseUrl = 'https://the-opod-hotel-telaviv.netlify.app';
 
   const capsulesDir = path.join(process.cwd(), 'content/capsules');
   const capsuleFiles = fs.readdirSync(capsulesDir);
