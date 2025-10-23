@@ -33,12 +33,22 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     openGraph: {
       title,
       description,
-      images: [{
-        url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-home.png',
-        width: 1200,
-        height: 630,
-        alt: 'The O Pod Hotel Tel Aviv - Modern Pod Hotel by the Mediterranean Sea'
-      }],
+      images: [
+        {
+          url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-home.png',
+          width: 1200,
+          height: 630,
+          alt: 'The O Pod Hotel Tel Aviv - Modern Pod Hotel by the Mediterranean Sea',
+          type: 'image/png',
+        },
+        {
+          url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-favicon-512x512.png',
+          width: 512,
+          height: 512,
+          alt: 'The O Pod Hotel Logo',
+          type: 'image/png',
+        }
+      ],
       locale: locale,
       type: 'website',
       siteName: 'The O Pod Hotel Tel Aviv',
