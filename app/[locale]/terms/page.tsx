@@ -32,22 +32,19 @@ export default async function TermsPage({ params: { locale } }: { params: { loca
             {t('intro')}
           </p>
 
-          <div className="space-y-8">
-            {['section1', 'section2', 'section3', 'section4', 'section5'].map((section) => (
-              <div key={section} className="bg-white p-6 rounded-2xl shadow-sm border border-neutral-100">
-                <h2 className="text-2xl font-bold text-[#1C1C1C] mb-4 font-manrope">
-                  {t(`${section}Title`)}
-                </h2>
-                <p className="text-neutral-700 leading-relaxed">
-                  {t(`${section}Text`)}
+          <div className="bg-white p-8 rounded-2xl shadow-sm border border-neutral-100">
+            <div className="prose prose-neutral max-w-none">
+              {t('content').split('\n\n').map((paragraph, index) => (
+                <p key={index} className="text-neutral-700 leading-relaxed mb-4">
+                  {paragraph}
                 </p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
           <div className="mt-12 p-6 bg-[#F5EFE7] rounded-2xl">
             <p className="text-neutral-700 text-center">
-              📧 <strong>Contact:</strong> hello@theopodhotel.com
+              📧 <strong>Contact:</strong> reservations@theopodhotel.com
             </p>
           </div>
         </div>

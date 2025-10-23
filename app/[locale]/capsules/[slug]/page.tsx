@@ -181,10 +181,11 @@ export default async function CapsuleDetailPage({
               <div className="sticky top-24">
                 <div className="bg-white border border-neutral-200 rounded-2xl p-6 mb-6 shadow-lg">
                   <p className="text-sm text-neutral-500 mb-1">{t('from')}</p>
-                  <p className="text-4xl font-bold text-[#2EC4B6] mb-4">
-                    {capsule.price_from.ILS} ILS
+                  <p className="text-4xl font-bold text-[#2EC4B6] mb-2">
+                    {capsule.price_from.ILS} ILS{t('excludingVat')}
                     <span className="text-lg font-normal text-neutral-500">/{t('night')}</span>
                   </p>
+                  <p className="text-xs text-neutral-500 italic">{t('vatNote')}</p>
                 </div>
                 <BookingWidget locale={locale as 'he' | 'en' | 'fr'} capsuleSlug={slug} />
               </div>

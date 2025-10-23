@@ -17,9 +17,9 @@
   "accessible": false,
   "balcony": false,
   "price_from": {
-    "ILS": 299,
-    "USD": 82,
-    "EUR": 75
+    "ILS": 280,
+    "USD": 77,
+    "EUR": 70
   },
   "amenities": ["wifi", "towels", "lockers", "24_7_reception", "air_conditioning", "usb_charging", "reading_light", "sea_view"],
   "images": [
