@@ -6,9 +6,47 @@ import { getOrganizationSchema } from '@/lib/schema';
 import { Clock, Lock, Droplets, Wind, Wifi, MapPin, Users, Shield } from 'lucide-react';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
+  const descriptions = {
+    en: "Modern pod hotel in Tel Aviv by the Mediterranean. 24/7 reception, secure lockers, modern showers. Steps from the beach. Book from 165₪!",
+    fr: "Hôtel capsule moderne à Tel Aviv au bord de la Méditerranée. Réception 24/7, casiers sécurisés, douches modernes. À deux pas de la plage. À partir de 165₪ !",
+    he: "מלון קפסולות מודרני בתל אביב על חוף הים התיכון. קבלה 24/7, לוקרים מאובטחים, מקלחות מודרניות. צעדים מהחוף. מ-165₪!"
+  };
+
+  const titles = {
+    en: "The Hotel | The O Pod Hotel Tel Aviv - Modern Pod Hotel by the Beach",
+    fr: "L'Hôtel | The O Pod Hotel Tel Aviv - Hôtel Capsule Moderne Près de la Plage",
+    he: "המלון | The O Pod Hotel תל אביב - מלון קפסולות מודרני ליד החוף"
+  };
+
+  const description = descriptions[locale as keyof typeof descriptions] || descriptions.en;
+  const title = titles[locale as keyof typeof titles] || titles.en;
+
   return {
-    title: 'The Hotel | The O Pod Hotel Tel Aviv',
-    description: 'Modern pod hotel in the heart of Tel Aviv. 24/7 reception, secure lockers, modern showers, and all amenities for comfortable stay.',
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [{
+        url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'The O Pod Hotel Tel Aviv - Modern Pod Hotel'
+      }],
+      locale: locale,
+      type: 'website',
+      siteName: 'The O Pod Hotel Tel Aviv',
+      url: `https://theopodhotel.com/${locale}/hotel`
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-image.png'],
+    },
+    alternates: {
+      canonical: `/${locale}/hotel`,
+    },
   };
 }
 

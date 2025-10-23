@@ -12,13 +12,52 @@ import path from 'path';
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const t = await getTranslations({ locale, namespace: 'hero' });
 
+  const descriptions = {
+    en: "Your hotel in Tel Aviv by the Mediterranean Sea from 165₪. Modern pod hotel steps from the beach. Book your stay now!",
+    fr: "Votre hôtel à Tel Aviv au bord de la Méditerranée à partir de 165₪. Hôtel capsule moderne à deux pas de la plage. Réservez maintenant !",
+    he: "המלון שלכם בתל אביב על חוף הים התיכון מ-165₪. מלון קפסולות מודרני צעדים מהחוף. הזמינו עכשיו!"
+  };
+
+  const titles = {
+    en: "The O Pod Hotel Tel Aviv - Modern Pod Hotel by the Mediterranean",
+    fr: "The O Pod Hotel Tel Aviv - Hôtel Capsule Moderne au Bord de la Méditerranée",
+    he: "The O Pod Hotel תל אביב - מלון קפסולות מודרני על חוף הים התיכון"
+  };
+
+  const description = descriptions[locale as keyof typeof descriptions] || descriptions.en;
+  const title = titles[locale as keyof typeof titles] || titles.en;
+
   return {
-    title: `${t('title')} | The O Pod Hotel Tel Aviv`,
-    description: t('subtitle'),
+    title,
+    description,
     openGraph: {
-      title: `${t('title')} | The O Pod Hotel`,
-      description: t('subtitle'),
-      images: ['/images/hero.jpg'],
+      title,
+      description,
+      images: [{
+        url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-home.png',
+        width: 1200,
+        height: 630,
+        alt: 'The O Pod Hotel Tel Aviv - Modern Pod Hotel by the Mediterranean Sea'
+      }],
+      locale: locale,
+      type: 'website',
+      siteName: 'The O Pod Hotel Tel Aviv',
+      url: `https://theopodhotel.com/${locale}`
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-home.png'],
+    },
+    metadataBase: new URL('https://theopodhotel.com'),
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        'en': '/en',
+        'fr': '/fr',
+        'he': '/he',
+      },
     },
   };
 }

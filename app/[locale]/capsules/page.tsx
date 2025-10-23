@@ -8,9 +8,47 @@ import path from 'path';
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const t = await getTranslations({ locale, namespace: 'capsules' });
 
+  const descriptions = {
+    en: "Discover our modern pod accommodations in Tel Aviv from 165₪. Solo, double, and sea-view capsules. Book your perfect pod by the Mediterranean!",
+    fr: "Découvrez nos capsules modernes à Tel Aviv à partir de 165₪. Capsules solo, double et vue mer. Réservez votre pod parfait au bord de la Méditerranée !",
+    he: "גלו את הקפסולות המודרניות שלנו בתל אביב מ-165₪. קפסולות יחיד, זוגי ונוף ים. הזמינו את הפוד המושלם שלכם על חוף הים התיכון!"
+  };
+
+  const titles = {
+    en: "Our Capsules - The O Pod Hotel Tel Aviv | Modern Pod Accommodation",
+    fr: "Nos Capsules - The O Pod Hotel Tel Aviv | Hébergement Capsule Moderne",
+    he: "הקפסולות שלנו - The O Pod Hotel תל אביב | אירוח קפסולות מודרני"
+  };
+
+  const description = descriptions[locale as keyof typeof descriptions] || descriptions.en;
+  const title = titles[locale as keyof typeof titles] || titles.en;
+
   return {
-    title: `${t('title')} | The O Pod Hotel`,
-    description: 'Browse our range of modern pod accommodations in Tel Aviv. From compact solo pods to premium sea-view capsules.',
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      images: [{
+        url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-capsules.png',
+        width: 1200,
+        height: 630,
+        alt: 'The O Pod Hotel Capsules - Modern Pod Accommodations in Tel Aviv'
+      }],
+      locale: locale,
+      type: 'website',
+      siteName: 'The O Pod Hotel Tel Aviv',
+      url: `https://theopodhotel.com/${locale}/capsules`
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-capsules.png'],
+    },
+    alternates: {
+      canonical: `/${locale}/capsules`,
+    },
   };
 }
 
