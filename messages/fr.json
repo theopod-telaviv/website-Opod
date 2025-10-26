@@ -84,7 +84,8 @@
     "madeBy": "Site web réalisé par"
   },
   "testimonials": {
-    "title": "Ce que disent nos clients"
+    "title": "Ce que disent nos clients",
+    "seeAllReviews": "Voir tous les avis"
   },
   "reassurance": {
     "bestPrice": "Meilleur Prix Direct",
