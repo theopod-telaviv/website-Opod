@@ -55,8 +55,8 @@
     "mini_table": "Petite Table"
   },
   "booking": {
-    "checkin": "Arrivée",
-    "checkout": "Départ",
+    "checkin": "Départ",
+    "checkout": "Arrivée",
     "pickDate": "Choisir une date",
     "guests": "Voyageurs",
     "adults": "Adultes",

@@ -55,8 +55,8 @@
     "mini_table": "Mini Table"
   },
   "booking": {
-    "checkin": "Check-in",
-    "checkout": "Check-out",
+    "checkin": "Check-out",
+    "checkout": "Check-in",
     "pickDate": "Pick a date",
     "guests": "Guests",
     "adults": "Adults",

@@ -19,36 +19,27 @@ export function buildSimpleBookingUrl(criteria: BookingCriteria): string {
   const baseUrl = process.env.SIMPLEBOOKING_BASE_URL || 'https://www.simplebooking.it/ibe2/hotel/9240';
   const url = new URL(baseUrl);
 
+  // Language parameter
   url.searchParams.set('lang', LOCALE_MAP[criteria.locale] || 'EN');
-  url.searchParams.set('cur', criteria.currency || 'ILS');
 
+  // Currency - always EUR as per SimpleBooking requirements
+  url.searchParams.set('cur', 'EUR');
+
+  // Guests parameter - always 'A' as per SimpleBooking format
+  url.searchParams.set('guests', 'A');
+
+  // Check-in date (using 'in' parameter)
   if (criteria.checkin) {
-    url.searchParams.set('checkin', criteria.checkin);
+    url.searchParams.set('in', criteria.checkin);
   }
 
+  // Check-out date (using 'out' parameter)
   if (criteria.checkout) {
-    url.searchParams.set('checkout', criteria.checkout);
+    url.searchParams.set('out', criteria.checkout);
   }
 
-  if (criteria.adults && criteria.adults > 0) {
-    url.searchParams.set('adults', criteria.adults.toString());
-  }
-
-  if (criteria.children && criteria.children > 0) {
-    url.searchParams.set('children', criteria.children.toString());
-  }
-
-  if (criteria.rooms && criteria.rooms > 0) {
-    url.searchParams.set('rooms', criteria.rooms.toString());
-  }
-
-  if (criteria.roomType) {
-    url.searchParams.set('roomType', criteria.roomType);
-  }
-
-  url.searchParams.set('utm_source', 'website');
-  url.searchParams.set('utm_medium', 'booking_widget');
-  url.searchParams.set('utm_campaign', 'direct');
+  // Coupon parameter (empty as per SimpleBooking format)
+  url.searchParams.set('coupon', '');
 
   return url.toString();
 }
