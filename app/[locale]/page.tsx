@@ -35,14 +35,14 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       description,
       images: [
         {
-          url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-favicon-512x512.png',
+          url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-favicon-512x512.png',
           width: 512,
           height: 512,
           alt: 'The O Pod Hotel Logo',
           type: 'image/png',
         },
         {
-          url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-home.png',
+          url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-og-home.png',
           width: 1200,
           height: 630,
           alt: 'The O Pod Hotel Tel Aviv - Modern Pod Hotel by the Mediterranean Sea',
@@ -58,7 +58,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-home.png'],
+      images: ['https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-og-home.png'],
     },
     metadataBase: new URL('https://the-opod-hotel-telaviv.netlify.app'),
     alternates: {
@@ -119,7 +119,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/3-%20the-o-pod-hotel-tel-aviv-sea-view.webp)',
+            backgroundImage: 'url(https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/3-%20the-o-pod-hotel-tel-aviv-sea-view.webp)',
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#1C1C1C]/80 to-[#1C1C1C]/40" />
@@ -218,7 +218,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{
-                  backgroundImage: 'url(https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/5-%20Sea-tel-aviv-yafo-visit-hotel-the-o-pod-view.webp)',
+                  backgroundImage: 'url(https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/5-%20Sea-tel-aviv-yafo-visit-hotel-the-o-pod-view.webp)',
                 }}
               />
             </div>

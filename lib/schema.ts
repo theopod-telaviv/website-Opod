@@ -6,8 +6,8 @@ export function getOrganizationSchema(locale: string) {
     name: 'The O Pod Hotel',
     alternateName: 'O Pod Hotel Tel Aviv',
     url: 'https://the-opod-hotel-telaviv.netlify.app',
-    logo: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-favicon-512x512.png',
-    image: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-home.png',
+    logo: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-favicon-512x512.png',
+    image: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-og-home.png',
     description: {
       he: 'מלון קפסולות מודרני בתל אביב, צעדים מחוף הים התיכון',
       en: 'Modern pod hotel in Tel Aviv, steps from the Mediterranean beach',

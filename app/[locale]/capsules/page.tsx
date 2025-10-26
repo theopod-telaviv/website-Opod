@@ -30,7 +30,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       title,
       description,
       images: [{
-        url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-capsules.png',
+        url: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-og-capsules.png',
         width: 1200,
         height: 630,
         alt: 'The O Pod Hotel Capsules - Modern Pod Accommodations in Tel Aviv'
@@ -44,7 +44,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       card: 'summary_large_image',
       title,
       description,
-      images: ['https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/Logo%20app%20share/the-o-pod-hotel-og-capsules.png'],
+      images: ['https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-og-capsules.png'],
     },
     alternates: {
       canonical: `/${locale}/capsules`,
