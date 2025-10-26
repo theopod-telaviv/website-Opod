@@ -236,7 +236,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
           <div className="flex justify-center mt-8">
             <Button
               asChild
-              className="bg-[#C9A227] hover:bg-[#B8912A] text-white px-8 py-6 text-lg rounded-full"
+              className="bg-[#2EC4B6] hover:bg-[#26a89c] text-white px-8 py-6 text-lg rounded-full transition-colors"
             >
               <a
                 href="https://www.google.com/travel/search?q=avis%20capsule%20hotel%20opod%20tel%20aviv&g2lb=202952%2C4965990%2C72317059%2C72414906%2C72471280%2C72472051%2C72485658%2C72560029%2C72573224%2C72616120%2C72647020%2C72686036%2C72803964%2C72882230%2C72958624%2C72959983%2C73053698%2C73059275%2C73064764%2C73107089%2C73148424&hl=fr-IL&gl=il&ssta=1&ts=CAEaRwopEicyJTB4MTUxZDRjOTdkNGM0N2U0MzoweDlhNWMxYzEzZWFjZDRiMTASGhIUCgcI6Q8QCxgFEgcI6Q8QCxgGGAEyAhAA&qs=CAEyFENnc0lrSmExMXI2Q2g2NmFBUkFCOAJCCQkQS83qExxcmkIJCRBLzeoTHFya&ap=ugEHcmV2aWV3cw&ictx=111&ved=0CAAQ5JsGahcKEwjYxs2FhsKQAxUAAAAAHQAAAAAQBA"
