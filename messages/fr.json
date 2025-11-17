@@ -1,0 +1,291 @@
+{
+  "nav": {
+    "discover": "Découvrir",
+    "capsules": "Capsules",
+    "hotel": "Hôtel",
+    "experiences": "Expériences",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "book": "Réserver"
+  },
+  "hero": {
+    "title": "Dormir près de la Mer, Vivre la Ville",
+    "subtitle": "Hôtel capsule moderne à deux pas de la plage de Tel Aviv. Dormez malin, explorez plus.",
+    "cta": "Réserver votre séjour"
+  },
+  "features": {
+    "wifi": "Wi-Fi Gratuit",
+    "towels": "Serviettes Incluses",
+    "lockers": "Casiers Sécurisés",
+    "reception": "Réception 24/7",
+    "showers": "Douches Modernes",
+    "air": "Climatisation"
+  },
+  "capsules": {
+    "title": "Nos Capsules",
+    "solo": "Solo",
+    "duo": "Duo",
+    "seaview": "Vue Mer",
+    "accessible": "Accessible",
+    "from": "À partir de",
+    "night": "nuit",
+    "details": "Voir détails",
+    "book": "Réserver",
+    "viewAll": "Voir toutes les capsules",
+    "person": "personne",
+    "people": "personnes",
+    "balcony": "Balcon",
+    "aboutPod": "À propos de cette capsule",
+    "occupancy": "Capacité",
+    "bedSize": "Taille du lit",
+    "dimensions": "Dimensions",
+    "amenities": "Équipements",
+    "faq": "Questions Fréquemment Posées",
+    "wifi": "WiFi",
+    "towels": "Serviettes",
+    "lockers": "Casiers",
+    "24_7_reception": "Réception 24/7",
+    "air_conditioning": "Climatisation",
+    "usb_charging": "Chargement USB",
+    "sea_view": "Vue Mer",
+    "reading_light": "Lampe de Lecture",
+    "mini_table": "Petite Table"
+  },
+  "booking": {
+    "checkin": "Arrivée",
+    "checkout": "Départ",
+    "pickDate": "Choisir une date",
+    "guests": "Voyageurs",
+    "adults": "Adultes",
+    "children": "Enfants",
+    "rooms": "Chambres",
+    "selectCapsule": "Sélectionner capsule",
+    "bookNow": "Réserver sur SimpleBooking",
+    "redirect": "Vous serez redirigé vers notre système de réservation sécurisé"
+  },
+  "footer": {
+    "address": "Kaufmann St 2, Tel Aviv-Yafo, 6801294",
+    "phone": "077-756-5350",
+    "whatsapp": "+972 58-595-0580",
+    "email": "hello@theopodhotel.com",
+    "followUs": "Suivez-nous",
+    "quickLinks": "Liens Rapides",
+    "legal": "Légal",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions Générales",
+    "accessibility": "Accessibilité",
+    "sitemap": "Plan du Site",
+    "rights": "Tous droits réservés",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsConditions": "Conditions Générales",
+    "madeBy": "Site web réalisé par"
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients"
+  },
+  "reassurance": {
+    "bestPrice": "Meilleur Prix Direct",
+    "reception": "Réception 24/7",
+    "towels": "Serviettes Incluses",
+    "cancellation": "Annulation Gratuite"
+  },
+  "home": {
+    "capsuleSubtitle": "Choisissez la capsule idéale pour votre séjour. Designs modernes et confort optimal.",
+    "discoverTelAviv": "Découvrez Tel Aviv",
+    "discoverSubtitle": "Notre emplacement privilégié vous place au cœur de l'action. La plage, les marchés animés et les quartiers historiques sont à quelques minutes à pied.",
+    "walkToBeach": "2 minutes à pied de la plage",
+    "walkToMarket": "5 minutes du marché Carmel",
+    "walkToJaffa": "10 minutes de Jaffa",
+    "exploreArea": "Explorer le quartier"
+  },
+  "hotel": {
+    "title": "L'Hôtel",
+    "subtitle": "Confort moderne au cœur de Tel Aviv",
+    "aboutTitle": "À propos de The O Pod Hotel",
+    "aboutText1": "L'hôtel \"The O Pod\" établi en 2021, est situé au pied de la mer Méditerranée avec des vues à couper le souffle depuis la plupart des espaces de l'hôtel et certaines capsules.",
+    "aboutText2": "L'hôtel dispose d'une terrasse face à la mer, avec des sièges de bar et des transats.",
+    "aboutText3": "Les capsules sont ventilées avec un système de climatisation externe, comprenant un matelas confortable et de haute qualité, une étagère/placard de rangement et une lampe de chevet.",
+    "aboutText4": "Les douches et toilettes sont partagées et situées à l'extérieur des capsules, les capsules sont uniquement pour dormir !",
+    "aboutText5": "L'hôtel est situé à 1,9 km de la rue Shenkin, à 2,1 km du parc Meir et à 2,4 km du centre Dizengoff.",
+    "aboutText6": "Les points d'intérêt populaires à proximité de l'hôtel capsule incluent le centre Suzanne Dellal pour la danse et le théâtre, le musée de l'Indépendance et la foire artisanale Nachalat Benyamin. L'aéroport le plus proche est l'aéroport Ben Gurion, à 12 km de The O Pod Hotel.",
+    "servicesTitle": "Services & Équipements",
+    "reception247": "Réception 24/7",
+    "receptionDesc": "Notre réception est toujours ouverte. Enregistrez-vous à tout moment, obtenez de l'aide quand vous en avez besoin.",
+    "secureLockers": "Casiers Sécurisés",
+    "lockersDesc": "Casiers sécurisés gratuits pour tous les clients. Rangez vos objets de valeur et bagages en toute sécurité.",
+    "modernShowers": "Douches Modernes",
+    "showersDesc": "Installations de douche propres, séparées par sexe avec eau chaude 24/7.",
+    "airConditioning": "Climatisation",
+    "acDesc": "Toutes les capsules sont climatisées pour votre confort toute l'année.",
+    "highSpeedWifi": "WiFi Haut Débit",
+    "wifiDesc": "WiFi rapide gratuit dans tout l'hôtel. Travaillez, streamez, restez connecté.",
+    "commonAreas": "Espaces Communs",
+    "areasDesc": "Détendez-vous dans notre salon, rencontrez d'autres voyageurs, profitez de la terrasse sur le toit.",
+    "locationTitle": "Emplacement",
+    "hoursTitle": "Horaires d'Ouverture",
+    "reception": "Réception :",
+    "checkin": "Arrivée :",
+    "checkout": "Départ :",
+    "lateArrival": "Arrivée tardive :",
+    "always247": "24/7",
+    "from1500": "À partir de 15h00",
+    "until1100": "Jusqu'à 11h00",
+    "alwaysPossible": "Toujours possible",
+    "accessibilityTitle": "Accessibilité",
+    "accessibilityText1": "Nous nous engageons à fournir un hébergement accessible à tous les clients. Nos capsules O Comfy sont spécialement conçues dans un souci d'accessibilité, avec des entrées plus larges, plus d'espace de manœuvre et une hauteur sous plafond confortable.",
+    "accessibilityText2": "L'hôtel dispose d'un accès par ascenseur à tous les étages, et notre personnel est formé pour aider les clients handicapés. Veuillez nous contacter avant de réserver si vous avez des exigences spécifiques en matière d'accessibilité.",
+    "galleryTitle": "Galerie Photos de l'Hôtel",
+    "viewMore": "Voir Plus",
+    "viewAll": "Voir Toutes les Photos",
+    "showLess": "Voir Moins"
+  },
+  "experiences": {
+    "bookTour": "Réserver une Excursion"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous aider 24h/24 et 7j/7",
+    "getInTouch": "Entrer en Contact",
+    "phone": "Téléphone",
+    "phoneNumber": "077-756-5350",
+    "reception247": "Réception 24/7",
+    "email": "E-mail",
+    "emailAddress": "hello@theopodhotel.com",
+    "replyTime": "Nous répondons sous 24 heures",
+    "address": "Adresse",
+    "addressLine1": "Kaufmann St 2",
+    "addressLine2": "Tel Aviv-Yafo, 6801294",
+    "walkToBeach": "À 5 minutes à pied de Gordon Beach",
+    "whatsapp": "WhatsApp",
+    "whatsappNumber": "+972 58-595-0580",
+    "chatInstantly": "Discutez avec nous instantanément",
+    "startChat": "Commencer le Chat",
+    "openingHours": "Horaires d'Ouverture",
+    "reception": "Réception :",
+    "checkin": "Arrivée :",
+    "checkout": "Départ :",
+    "always247": "24/7",
+    "from1500": "À partir de 15h00",
+    "until1100": "Jusqu'à 11h00"
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Conseils voyage, découvertes locales et histoires de Tel Aviv",
+    "readMore": "Lire la suite",
+    "minRead": "min de lecture",
+    "views": "vues",
+    "by": "Par",
+    "relatedPosts": "Articles Similaires",
+    "backToBlog": "Retour au Blog",
+    "allPosts": "Tous les Articles",
+    "categories": "Catégories",
+    "tags": "Étiquettes",
+    "latestPosts": "Derniers Articles",
+    "featuredPosts": "Articles en Vedette",
+    "noPostsFound": "Aucun article trouvé",
+    "searchPlaceholder": "Rechercher des articles..."
+  },
+  "cookies": {
+    "title": "Nous respectons votre vie privée",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience de navigation, diffuser du contenu personnalisé et analyser notre trafic. En cliquant sur 'Tout Accepter', vous consentez à l'utilisation de nos cookies.",
+    "accept": "Tout Accepter",
+    "decline": "Refuser",
+    "learnMore": "En savoir plus",
+    "privacyPolicy": {
+      "title": "Déclaration de Confidentialité – The O Pod Hotel Tel Aviv",
+      "subtitle": "(Mise à jour conformément à l'amendement n°13 de la Loi sur la Protection de la Vie Privée)",
+      "lastUpdated": "Dernière mise à jour : 10/11/2025",
+      "section1": {
+        "title": "1. Introduction",
+        "content": "L'hôtel \"The O Pod Hotel\" s'engage à protéger la vie privée de nos clients et utilisateurs du site. Cette déclaration de confidentialité explique comment nous collectons, utilisons, conservons et traitons les informations personnelles conformément à la Loi sur la Protection de la Vie Privée, y compris l'amendement n°13, et aux règlements pertinents."
+      },
+      "section2": {
+        "title": "2. Qui gère les informations",
+        "content": "Les informations sont gérées par :\n\nTheopod Hotel\nNuméro d'entreprise : 513718254\nAdresse : Rue Kaufmann 2, Tel Aviv\nE-mail de contact pour les questions de confidentialité : opodhotel@gmail.com"
+      },
+      "section3": {
+        "title": "3. Quels types d'informations collectons-nous",
+        "content": "a. Coordonnées : Nom complet, téléphone, e-mail.\nb. Détails de réservation et de séjour : Dates, type de chambre, préférences d'hébergement, nombre de clients.\nc. Informations de paiement : Les détails de carte de crédit sont traités via un fournisseur de paiement certifié ; nous ne conservons pas les informations complètes de la carte.\nd. Données de navigation et d'appareil : Adresse IP, navigateur, cookies, données d'utilisation à des fins d'analyse et d'amélioration de l'expérience utilisateur.\ne. Communications avec l'hôtel : Demandes par téléphone/e-mail/formulaires sur le site."
+      },
+      "section4": {
+        "title": "4. Finalités du traitement des informations et base légale",
+        "content": "a. Gestion des réservations, exploitation du service et fourniture de l'expérience d'accueil — traitement essentiel à l'exécution du contrat.\nb. Facturation, comptabilité et respect des obligations légales.\nc. Sécurité de l'information et prévention de la fraude — intérêt légitime.\nd. Envoi d'offres marketing — uniquement avec consentement actif (opt-in).\ne. Amélioration du service, analyse de l'utilisation du site et exploitation technologique."
+      },
+      "section5": {
+        "title": "5. Divulgation et transfert d'informations à des tiers",
+        "content": "Nous pouvons transférer des informations aux entités suivantes, sous réserve d'accords de protection des données :\n• Fournisseurs de paiement sécurisés (Payment Gateway)\n• Système de réservation externe/Channel Manager\n• Services cloud hébergeant le site\n• Fournisseurs de sécurité de l'information et d'analyse (par exemple Google Analytics)\n\nLe transfert d'informations hors d'Israël sera effectué conformément aux exigences légales et à la réglementation applicable."
+      },
+      "section6": {
+        "title": "6. Conservation des informations",
+        "content": "Nous conservons les informations personnelles pendant la durée nécessaire aux fins du traitement ou conformément à la loi :\n• Détails de réservations et factures — jusqu'à 7 ans à des fins fiscales et réglementaires.\n• Données d'exploitation et de navigation — selon les besoins opérationnels, généralement pour une période plus courte.\n• Informations marketing — jusqu'à ce que l'utilisateur demande la suppression ou cesse l'utilisation."
+      },
+      "section7": {
+        "title": "7. Droits des personnes concernées",
+        "content": "Conformément à l'amendement 13, vous disposez des droits suivants :\n• Droit d'accès aux informations\n• Droit de rectification des informations inexactes\n• Droit à l'effacement des informations (sous réserve d'obligations légales)\n• Droit d'opposition au traitement des informations ou de limitation du traitement\n• Droit de réclamation auprès de l'Autorité de Protection de la Vie Privée\n\nLes demandes peuvent être envoyées à : opodhotel@gmail.com"
+      },
+      "section8": {
+        "title": "8. Sécurité de l'information",
+        "content": "Nous utilisons des mesures techniques et organisationnelles raisonnables pour protéger les informations personnelles, y compris le chiffrement, les contrôles d'accès et la séparation des informations sensibles. Néanmoins, une sécurité totale ne peut être garantie. En cas d'incident de sécurité important, nous agirons conformément aux exigences légales de signalement."
+      },
+      "section9": {
+        "title": "9. Délégué à la Protection des Données (le cas échéant)",
+        "content": "Si un délégué à la protection des données est nommé conformément à l'étendue du traitement, les coordonnées seront mises à jour ici. Actuellement, la responsabilité de la confidentialité est gérée par la direction de l'hôtel."
+      },
+      "section10": {
+        "title": "10. Mises à jour de la politique",
+        "content": "Nous mettrons à jour ce document de temps en temps. L'utilisation du site constitue un consentement à cette politique."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "lastUpdated": "Dernière mise à jour : 19 octobre 2025",
+    "intro": "Au O Pod Hotel, nous respectons votre vie privée et nous engageons à protéger vos données personnelles.",
+    "section1Title": "Informations Collectées",
+    "section1Text": "Nous collectons vos informations personnelles incluant nom, email, téléphone et détails de paiement lors de votre réservation.",
+    "section2Title": "Utilisation de vos Informations",
+    "section2Text": "Nous utilisons vos données pour traiter les réservations, communiquer et améliorer nos services.",
+    "section3Title": "Sécurité des Données",
+    "section3Text": "Nous appliquons des mesures de sécurité standards. Toutes les transactions sont cryptées avec SSL.",
+    "section4Title": "Vos Droits",
+    "section4Text": "Vous avez le droit d'accéder, corriger ou supprimer vos données. Contactez-nous : hello@theopodhotel.com.",
+    "section5Title": "Cookies",
+    "section5Text": "Nous utilisons des cookies pour améliorer votre expérience. Gérez vos préférences via votre navigateur."
+  },
+  "terms": {
+    "title": "Conditions Générales",
+    "lastUpdated": "Dernière mise à jour : 19 octobre 2025",
+    "intro": "En effectuant une réservation, vous acceptez ces conditions générales.",
+    "section1Title": "Réservations & Paiements",
+    "section1Text": "Toute réservation doit être garantie par carte bancaire valide. Paiement requis à la réservation.",
+    "section2Title": "Arrivée & Départ",
+    "section2Text": "Arrivée : à partir de 15h00. Départ : jusqu'à 11h00. Demandes anticipées soumises à disponibilité.",
+    "section3Title": "Conduite des Clients",
+    "section3Text": "Respect des autres clients et des lieux requis. Interdiction de fumer. Heures calmes : 22h00 - 8h00.",
+    "section4Title": "Politique d'Annulation",
+    "section4Text": "Annulation gratuite 48h avant l'arrivée. Moins de 48h : frais d'une nuitée appliqués.",
+    "section5Title": "Responsabilité",
+    "section5Text": "Non responsable des pertes/dommages d'effets personnels. Utilisez les casiers sécurisés fournis."
+  },
+  "accessibilityPage": {
+    "title": "Accessibilité",
+    "intro": "Le O Pod Hotel s'engage à garantir l'accessibilité pour tous les clients.",
+    "section1Title": "Capsules Accessibles",
+    "section1Text": "Les capsules O Comfy offrent entrées élargies, lits bas et espace supplémentaire pour fauteuils roulants.",
+    "section2Title": "Équipements",
+    "section2Text": "Ascenseur, salles de bains accessibles, signalétique tactile, alarmes visuelles, parking réservé.",
+    "section3Title": "Assistance",
+    "section3Text": "Personnel 24/7 formé pour assister. Informez-nous de vos besoins lors de la réservation.",
+    "section4Title": "Accessibilité du Site Web",
+    "section4Text": "Notre site est compatible avec les lecteurs d'écran. Signalez les problèmes pour nous aider.",
+    "section5Title": "Animaux d'Assistance",
+    "section5Text": "Animaux d'assistance bienvenus. Merci de nous informer à l'avance."
+  },
+  "sitemap": {
+    "title": "Plan du Site",
+    "intro": "Naviguez facilement sur le site du O Pod Hotel.",
+    "mainPages": "Pages Principales",
+    "legalPages": "Pages Légales"
+  }
+}
