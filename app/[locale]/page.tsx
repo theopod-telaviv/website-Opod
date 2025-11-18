@@ -128,9 +128,25 @@ export default async function HomePage({ params: { locale } }: { params: { local
 
         <div className="relative h-full flex items-center">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 font-manrope leading-tight">
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 font-manrope leading-tight">
               {t('title')}
             </h1>
+
+            {/* Rating and Tagline */}
+            <div className="mb-6">
+              <div className="flex items-center gap-2 mb-3">
+                {[1, 2, 3, 4, 5].map((star) => (
+                  <Star key={star} className="h-6 w-6 fill-[#FFD700] text-[#FFD700]" />
+                ))}
+                <span className="text-lg font-semibold text-[#F5EFE7] ml-2">
+                  (320 {locale === 'fr' ? 'avis' : locale === 'he' ? 'ביקורות' : 'reviews'})
+                </span>
+              </div>
+              <p className="text-lg md:text-xl font-medium text-[#2EC4B6] bg-[#1C1C1C]/50 inline-block px-4 py-2 rounded-lg backdrop-blur-sm">
+                {t('tagline')}
+              </p>
+            </div>
+
             <p className="text-xl md:text-2xl mb-8 max-w-2xl text-[#F5EFE7]">
               {t('subtitle')}
             </p>

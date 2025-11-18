@@ -30,7 +30,14 @@ export function getOrganizationSchema(locale: string) {
     priceRange: '₪₪',
     starRating: {
       '@type': 'Rating',
-      ratingValue: '4',
+      ratingValue: '5',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '5',
+      reviewCount: '320',
+      bestRating: '5',
+      worstRating: '1',
     },
     amenityFeature: [
       { '@type': 'LocationFeatureSpecification', name: 'Free WiFi', value: true },
