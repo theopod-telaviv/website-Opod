@@ -2,22 +2,15 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import { Cookie, X, FileText } from 'lucide-react';
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from '@/components/ui/dialog';
-import { ScrollArea } from '@/components/ui/scroll-area';
+import { Cookie } from 'lucide-react';
+import Link from 'next/link';
 
 export function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false);
-  const [showPolicy, setShowPolicy] = useState(false);
   const t = useTranslations('cookies');
+  const locale = useLocale();
 
   useEffect(() => {
     // Check if user has already accepted cookies
@@ -64,130 +57,13 @@ export function CookieConsent() {
                 {t('description')}
               </p>
 
-              {/* Learn More Button */}
-              <Dialog open={showPolicy} onOpenChange={setShowPolicy}>
-                <DialogTrigger asChild>
-                  <button className="text-sm text-[#2EC4B6] hover:text-[#28b0a3] font-medium flex items-center gap-1 transition-colors">
-                    <FileText className="h-4 w-4" />
-                    {t('learnMore')}
-                  </button>
-                </DialogTrigger>
-                <DialogContent className="max-w-3xl max-h-[80vh]">
-                  <DialogHeader>
-                    <DialogTitle className="text-2xl font-bold text-[#1C1C1C]">
-                      {t('privacyPolicy.title')}
-                    </DialogTitle>
-                    <DialogDescription className="text-sm text-neutral-600">
-                      {t('privacyPolicy.subtitle')}
-                      <br />
-                      {t('privacyPolicy.lastUpdated')}
-                    </DialogDescription>
-                  </DialogHeader>
-                  <ScrollArea className="h-[60vh] pr-4">
-                    <div className="space-y-6">
-                      {/* Section 1 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section1.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section1.content')}
-                        </p>
-                      </div>
-
-                      {/* Section 2 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section2.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section2.content')}
-                        </p>
-                      </div>
-
-                      {/* Section 3 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section3.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section3.content')}
-                        </p>
-                      </div>
-
-                      {/* Section 4 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section4.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section4.content')}
-                        </p>
-                      </div>
-
-                      {/* Section 5 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section5.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section5.content')}
-                        </p>
-                      </div>
-
-                      {/* Section 6 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section6.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section6.content')}
-                        </p>
-                      </div>
-
-                      {/* Section 7 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section7.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section7.content')}
-                        </p>
-                      </div>
-
-                      {/* Section 8 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section8.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section8.content')}
-                        </p>
-                      </div>
-
-                      {/* Section 9 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section9.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section9.content')}
-                        </p>
-                      </div>
-
-                      {/* Section 10 */}
-                      <div>
-                        <h4 className="font-bold text-[#1C1C1C] mb-2">
-                          {t('privacyPolicy.section10.title')}
-                        </h4>
-                        <p className="text-sm text-neutral-700 leading-relaxed whitespace-pre-line">
-                          {t('privacyPolicy.section10.content')}
-                        </p>
-                      </div>
-                    </div>
-                  </ScrollArea>
-                </DialogContent>
-              </Dialog>
+              {/* Learn More Link */}
+              <Link
+                href={`/${locale}/privacy`}
+                className="text-sm text-[#2EC4B6] hover:text-[#28b0a3] font-medium underline transition-colors"
+              >
+                {t('learnMore')}
+              </Link>
             </div>
 
             {/* Actions */}

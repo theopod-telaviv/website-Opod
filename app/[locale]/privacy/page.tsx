@@ -34,55 +34,21 @@ export default async function PrivacyPage({ params: { locale } }: { params: { lo
             </p>
 
             <div className="space-y-8">
-              <div className="bg-white p-6 rounded-2xl shadow-sm border border-neutral-100">
-                <h2 className="text-2xl font-bold text-[#1C1C1C] mb-4 font-manrope">
-                  {t('section1Title')}
-                </h2>
-                <p className="text-neutral-700 leading-relaxed">
-                  {t('section1Text')}
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-2xl shadow-sm border border-neutral-100">
-                <h2 className="text-2xl font-bold text-[#1C1C1C] mb-4 font-manrope">
-                  {t('section2Title')}
-                </h2>
-                <p className="text-neutral-700 leading-relaxed">
-                  {t('section2Text')}
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-2xl shadow-sm border border-neutral-100">
-                <h2 className="text-2xl font-bold text-[#1C1C1C] mb-4 font-manrope">
-                  {t('section3Title')}
-                </h2>
-                <p className="text-neutral-700 leading-relaxed">
-                  {t('section3Text')}
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-2xl shadow-sm border border-neutral-100">
-                <h2 className="text-2xl font-bold text-[#1C1C1C] mb-4 font-manrope">
-                  {t('section4Title')}
-                </h2>
-                <p className="text-neutral-700 leading-relaxed">
-                  {t('section4Text')}
-                </p>
-              </div>
-
-              <div className="bg-white p-6 rounded-2xl shadow-sm border border-neutral-100">
-                <h2 className="text-2xl font-bold text-[#1C1C1C] mb-4 font-manrope">
-                  {t('section5Title')}
-                </h2>
-                <p className="text-neutral-700 leading-relaxed">
-                  {t('section5Text')}
-                </p>
-              </div>
+              {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((num) => (
+                <div key={num} className="bg-white p-6 rounded-2xl shadow-sm border border-neutral-100">
+                  <h2 className="text-2xl font-bold text-[#1C1C1C] mb-4 font-manrope">
+                    {t(`section${num}Title`)}
+                  </h2>
+                  <div className="text-neutral-700 leading-relaxed whitespace-pre-line">
+                    {t(`section${num}Text`)}
+                  </div>
+                </div>
+              ))}
             </div>
 
             <div className="mt-12 p-6 bg-[#F5EFE7] rounded-2xl">
               <p className="text-neutral-700 text-center">
-                📧 <strong>Contact:</strong> hello@theopodhotel.com
+                📧 <strong>Contact:</strong> opodhotel@gmail.com
               </p>
             </div>
           </div>
