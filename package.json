@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "./scripts/submit-sitemap.sh",
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit"

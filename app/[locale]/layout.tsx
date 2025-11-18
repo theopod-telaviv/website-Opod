@@ -41,6 +41,10 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={locale === 'he' ? 'rtl' : 'ltr'}>
       <head>
+        {/* Google Search Console Verification */}
+        <meta name="google-site-verification" content="google3f34b9262462e4fa" />
+
+        {/* Favicons */}
         <link rel="icon" type="image/x-icon" href="https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-favicon.ico" />
         <link rel="icon" type="image/png" sizes="16x16" href="https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-favicon-16x16.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-favicon-32x32.png" />
@@ -48,6 +52,8 @@ export default async function LocaleLayout({
         <link rel="icon" type="image/png" sizes="192x192" href="https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-favicon-192x192.png" />
         <link rel="icon" type="image/png" sizes="512x512" href="https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-favicon-512x512.png" />
         <link rel="manifest" href="/site.webmanifest" />
+
+        {/* Theme & OG Meta */}
         <meta name="theme-color" content="#2EC4B6" />
         <meta property="og:site_name" content="The O Pod Hotel Tel Aviv" />
         <meta property="og:type" content="website" />
