@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const capsuleFiles = fs.readdirSync(capsulesDir);
   const capsuleSlugs = capsuleFiles.map((file) => file.replace('.json', ''));
 
-  const routes = ['', '/capsules', '/hotel', '/experience-tel-aviv', '/faq', '/contact', '/accessibilite'];
+  const routes = ['', '/capsules', '/hotel', '/faq', '/contact', '/accessibilite'];
 
   const sitemapEntries: MetadataRoute.Sitemap = [];
 

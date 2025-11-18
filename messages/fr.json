@@ -3,7 +3,6 @@
     "discover": "Découvrir",
     "capsules": "Capsules",
     "hotel": "Hôtel",
-    "experiences": "Expériences",
     "blog": "Blog",
     "faq": "FAQ",
     "contact": "Contact",
@@ -142,9 +141,6 @@
     "viewMore": "Voir Plus",
     "viewAll": "Voir Toutes les Photos",
     "showLess": "Voir Moins"
-  },
-  "experiences": {
-    "bookTour": "Réserver une Excursion"
   },
   "contact": {
     "title": "Contactez-nous",

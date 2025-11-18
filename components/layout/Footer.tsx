@@ -52,11 +52,6 @@ export function Footer({ locale: initialLocale }: FooterProps) {
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/experience-tel-aviv`} className="hover:text-[#2EC4B6] transition-colors">
-                  Experiences
-                </Link>
-              </li>
-              <li>
                 <Link href={`/${locale}/faq`} className="hover:text-[#2EC4B6] transition-colors">
                   FAQ
                 </Link>

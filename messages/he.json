@@ -3,7 +3,6 @@
     "discover": "לגלות",
     "capsules": "קפסולות",
     "hotel": "המלון",
-    "experiences": "חוויות",
     "blog": "בלוג",
     "faq": "שאלות נפוצות",
     "contact": "צור קשר",
@@ -142,9 +141,6 @@
     "viewMore": "ראה עוד",
     "viewAll": "ראה את כל התמונות",
     "showLess": "ראה פחות"
-  },
-  "experiences": {
-    "bookTour": "הזמן סיור"
   },
   "contact": {
     "title": "צור קשר",
