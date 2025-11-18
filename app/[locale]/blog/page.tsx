@@ -17,7 +17,17 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 
 export default async function BlogPage({ params: { locale } }: { params: { locale: string } }) {
   const t = await getTranslations({ locale, namespace: 'blog' });
-  const posts = await getBlogPosts();
+
+  // Fetch blog posts with error handling
+  let posts: any[] = [];
+  let error = null;
+
+  try {
+    posts = await getBlogPosts();
+  } catch (e) {
+    console.error('Error in BlogPage:', e);
+    error = e;
+  }
 
   const getLocalizedField = (post: any, field: string) => {
     const fieldWithLocale = `${field}_${locale}`;
