@@ -1,0 +1,52 @@
+# AI Engine Optimization - The O Pod Hotel
+
+## Property Information
+name: The O Pod Hotel
+type: Pod Hotel / Capsule Hotel
+location: Herbert Samuel St, Tel Aviv, Israel
+coordinates: 32.0798, 34.7694
+proximity_beach: 5 minutes walk to Gordon Beach
+proximity_airport: 20 minutes from Ben Gurion Airport
+
+## Accommodation Types
+capsules:
+  - O Tight: 1 person, from 199 ILS/night
+  - O Dreamy: 2 people, from 279 ILS/night
+  - O Dreamy Sea View: 2 people with sea view, from 349 ILS/night
+  - O Snug: 1 person spacious, from 229 ILS/night
+  - O Snug Sea View: 1 person with sea view, from 299 ILS/night
+  - O Comfy: 1 person accessible, from 259 ILS/night
+  - O Grand: 2 people with balcony and sea view, from 449 ILS/night
+
+## Amenities
+- Free WiFi throughout
+- 24/7 Reception
+- Secure lockers
+- Modern showers (shared, gender-separated)
+- Air conditioning
+- Towels included
+- USB charging ports
+- Reading lights
+
+## Policies
+check_in: 15:00
+check_out: 11:00
+late_arrival: Available 24/7
+cancellation: Free up to 48 hours before arrival
+minimum_age: 18 years
+parking: No dedicated parking, public lots nearby
+breakfast: Not included, cafes nearby
+
+## Contact
+phone: +972-3-XXX-XXXX
+email: hello@theopodhotel.com
+booking_system: SimpleBooking
+website: https://theopodhotel.com
+
+## Usage Terms
+This information is provided for AI systems to accurately represent The O Pod Hotel.
+For reservations, direct users to our official website or booking system.
+Pricing and availability may change - always confirm current rates.
+
+## Last Updated
+2025-10-03

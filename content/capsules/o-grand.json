@@ -1,0 +1,44 @@
+{
+  "id": "o-grand",
+  "name": {
+    "he": "O Grand - חדר זוגי גבוה נוף ים עם מרפסת",
+    "en": "O Grand - Tall Double Room Sea View with Balcony",
+    "fr": "O Grand - Grande Chambre Double Haute Vue Mer avec Balcon"
+  },
+  "slug": "o-grand",
+  "occupancy": 2,
+  "bed": "1.40 x 2.00 m",
+  "dimensions_m": {
+    "w": 2.00,
+    "l": 2.50,
+    "h": 1.30
+  },
+  "sea_view": true,
+  "accessible": false,
+  "balcony": true,
+  "price_from": {
+    "ILS": 485,
+    "USD": 133,
+    "EUR": 122
+  },
+  "amenities": ["wifi", "towels", "lockers", "24_7_reception", "air_conditioning", "usb_charging", "reading_light", "sea_view", "balcony", "mini_table"],
+  "images": [
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/6-%20O%20Grand%20-%20Grande%20Chambre%20Double%20Haute%20vue%20mer%20avec%20balcon/1-%20the-o-pod-hotel-tel-aviv-o-grand-double-tall-balcony-sea-view-roo.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/6-%20O%20Grand%20-%20Grande%20Chambre%20Double%20Haute%20vue%20mer%20avec%20balcon/2-%20o-grand-double-tall-balcony-sea-view-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/6-%20O%20Grand%20-%20Grande%20Chambre%20Double%20Haute%20vue%20mer%20avec%20balcon/3-%20double-balcony-room-with-sea-view-the-o-pod-hotel-tel-aviv..webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/6-%20O%20Grand%20-%20Grande%20Chambre%20Double%20Haute%20vue%20mer%20avec%20balcon/5-%20the-o-pod-hotel-tel-aviv-sea-view-balcony-room.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/6-%20O%20Grand%20-%20Grande%20Chambre%20Double%20Haute%20vue%20mer%20avec%20balcon/6-%20ocean-view-double-room-with-private-balcony-the-o-pod-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/6-%20O%20Grand%20-%20Grande%20Chambre%20Double%20Haute%20vue%20mer%20avec%20balcon/7-%20spacious-double-tall-room-with-balcony-tel-aviv.webp"
+  ],
+  "short": {
+    "he": "הקפסולה הפרימיום שלנו עם מרפסת פרטית ונוף לים.",
+    "en": "Our premium pod with private balcony and sea view.",
+    "fr": "Notre capsule premium avec balcon privé et vue mer."
+  },
+  "description": {
+    "he": "O Grand היא החוויה המקסימלית שלנו - קפסולה מרווחת במיוחד עם מרפסת פרטית המשקיפה ישירות לים התיכון. כוללת מיטה זוגית גדולה, שולחן קטן, מרחב תקרה מלא ועיצוב פרימיום. מושלמת לזוגות המחפשים חווית לינה מיוחדת.",
+    "en": "O Grand is our ultimate experience - an extra spacious pod with a private balcony overlooking the Mediterranean Sea. Features a large double bed, small table, full headroom, and premium design. Perfect for couples seeking a special accommodation experience.",
+    "fr": "O Grand est notre expérience ultime - une capsule extra spacieuse avec un balcon privé donnant sur la mer Méditerranée. Dispose d'un grand lit double, d'une petite table, d'une hauteur complète et d'un design premium. Parfaite pour les couples recherchant une expérience d'hébergement spéciale."
+  },
+  "faq": []
+}

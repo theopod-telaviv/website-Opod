@@ -30,6 +30,8 @@
     "accessible": "Accessible",
     "from": "From",
     "night": "night",
+    "excludingVat": "*",
+    "vatNote": "* Price excluding VAT. 18% VAT applies to Israeli residents.",
     "details": "View Details",
     "book": "Book Now",
     "viewAll": "View All Capsules",
@@ -82,7 +84,8 @@
     "madeBy": "Website created by"
   },
   "testimonials": {
-    "title": "What Our Guests Say"
+    "title": "What Our Guests Say",
+    "seeAllReviews": "See All Reviews"
   },
   "reassurance": {
     "bestPrice": "Best Price Direct",

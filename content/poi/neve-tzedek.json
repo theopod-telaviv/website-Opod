@@ -1,0 +1,19 @@
+{
+  "id": "neve-tzedek",
+  "title": {
+    "he": "נווה צדק",
+    "en": "Neve Tzedek",
+    "fr": "Neve Tzedek"
+  },
+  "category": "culture",
+  "distance_min_walk": 15,
+  "lat": 32.0595,
+  "lng": 34.7615,
+  "image": "/images/poi/neve-tzedek.jpg",
+  "desc": {
+    "he": "השכונה הראשונה של תל אביב עם בניינים מקסימים, בוטיקים, גלריות ומסעדות משובחות. אווירה רומנטית ומיוחדת.",
+    "en": "Tel Aviv's first neighborhood with charming buildings, boutiques, galleries, and fine restaurants. Romantic and unique atmosphere.",
+    "fr": "Premier quartier de Tel Aviv avec bâtiments charmants, boutiques, galeries et restaurants raffinés. Atmosphère romantique et unique."
+  },
+  "maps_url": "https://maps.google.com/?q=Neve+Tzedek+Tel+Aviv"
+}

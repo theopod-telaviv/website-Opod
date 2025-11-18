@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "name": "Sarah M.",
+      "date": "2024-07",
+      "country": {
+        "en": "USA",
+        "fr": "États-Unis",
+        "he": "ארה\"ב"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Perfect location steps from the beach! The pods are clean, comfortable, and the staff is incredibly helpful. Best value in Tel Aviv.",
+        "fr": "Emplacement parfait à deux pas de la plage ! Les capsules sont propres, confortables et le personnel est incroyablement serviable. Meilleur rapport qualité-prix à Tel Aviv.",
+        "he": "מיקום מושלם צעדים מהחוף! הקפסולות נקיות, נוחות והצוות מועיל להפליא. הערך הטוב ביותר בתל אביב."
+      }
+    },
+    {
+      "name": "Tom K.",
+      "date": "2024-08",
+      "country": {
+        "en": "UK",
+        "fr": "Royaume-Uni",
+        "he": "בריטניה"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Loved the modern design and the 24/7 reception. Great for solo travelers. WiFi was fast, showers were clean. Will definitely come back!",
+        "fr": "J'ai adoré le design moderne et la réception 24/7. Parfait pour les voyageurs solo. Le WiFi était rapide, les douches étaient propres. Je reviendrai certainement !",
+        "he": "אהבתי את העיצוב המודרני והקבלה 24/7. נהדר לנוסעים יחידים. WiFi היה מהיר, המקלחות היו נקיות. בהחלט אחזור!"
+      }
+    },
+    {
+      "name": "Marie L.",
+      "date": "2024-08",
+      "country": {
+        "en": "France",
+        "fr": "France",
+        "he": "צרפת"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Excellent concept! The sea view capsule was amazing. You can hear the waves at night. Very safe with the lockers. Highly recommend!",
+        "fr": "Excellent concept ! La capsule avec vue sur la mer était incroyable. On peut entendre les vagues la nuit. Très sécurisé avec les casiers. Je recommande vivement !",
+        "he": "קונצפט מצוין! הקפסולה עם נוף לים הייתה מדהימה. אפשר לשמוע את הגלים בלילה. מאוד בטוח עם הלוקרים. ממליץ בחום!"
+      }
+    },
+    {
+      "name": "Ronalyn N.",
+      "date": "2025-09",
+      "country": {
+        "en": "Philippines",
+        "fr": "Philippines",
+        "he": "הפיליפינים"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Very accommodating staff! You can stay after checkout. I especially love the morning sea view.",
+        "fr": "Personnel très arrangeant ! Vous pouvez rester après le départ. J'adore la vue matinale sur la mer.",
+        "he": "צוות מאוד מתחשב! אפשר להישאר אחרי צ'ק-אאוט. אני אוהבת את נוף הבוקר לים."
+      }
+    },
+    {
+      "name": "John T.",
+      "date": "2025-09",
+      "country": {
+        "en": "USA",
+        "fr": "États-Unis",
+        "he": "ארה\"ב"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Perfect experience! Excellent staff and accommodation. Clean, friendly, impeccable location! I'll definitely come back. Shalom.",
+        "fr": "Expérience parfaite ! Personnel et hébergement excellents. Propre, sympathique, emplacement impeccable ! Je reviendrai. Shalom.",
+        "he": "חוויה מושלמת! צוות ולינה מעולים. נקי, ידידותי, מיקום ללא דופי! בהחלט אחזור. שלום."
+      }
+    },
+    {
+      "name": "Jegul J.",
+      "date": "2025-09",
+      "country": {
+        "en": "Israel",
+        "fr": "Israël",
+        "he": "ישראל"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Best place in town! Hamza is the friendliest host. My 5th stay, always spotless. Comfortable capsule, no noise. The balcony has the best beach view!",
+        "fr": "Meilleur endroit en ville ! Hamza est l'hôte le plus sympathique. Mon 5ème séjour, toujours impeccable. Capsule confortable, sans bruit. Le balcon a la meilleure vue sur la plage !",
+        "he": "המקום הכי טוב בעיר! חמזה המארח הכי ידידותי. השהייה החמישית שלי, תמיד מושלם. קפסולה נוחה, בלי רעש. למרפסת הנוף הכי טוב לחוף!"
+      }
+    },
+    {
+      "name": "Eva K.",
+      "date": "2025-08",
+      "country": {
+        "en": "UK",
+        "fr": "Royaume-Uni",
+        "he": "בריטניה"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Perfect location right on the beach! Friendly staff. Comfortable pod, made lots of friends and great memories. I love Israel and recommend O Pod to everyone!",
+        "fr": "Emplacement parfait sur la plage ! Personnel aimable. Capsule confortable, plein d'amis et de bons souvenirs. J'aime Israël et je recommande O Pod à tous !",
+        "he": "מיקום מושלם על החוף! צוות ידידותי. קפסולה נוחה, חברויות וזיכרונות נהדרים. אני אוהבת את ישראל וממליצה על O Pod לכולם!"
+      }
+    },
+    {
+      "name": "Judith S.",
+      "date": "2025-08",
+      "country": {
+        "en": "France",
+        "fr": "France",
+        "he": "צרפת"
+      },
+      "rating": 5,
+      "text": {
+        "en": "Summer 2025 - Top experience! Warm welcome, cleanliness, quality bedding, tastefully decorated areas, and breathtaking sea view!",
+        "fr": "Été 2025 - Expérience top ! Accueil chaleureux, propreté, literie de qualité, décoration de goût et vue imprenable sur la mer !",
+        "he": "קיץ 2025 - חוויה מעולה! קבלת פנים חמה, ניקיון, מצעים איכותיים, עיצוב מעולה ונוף עוצר נשימה לים!"
+      }
+    }
+  ]
+}

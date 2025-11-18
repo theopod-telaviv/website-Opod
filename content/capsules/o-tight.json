@@ -1,0 +1,58 @@
+{
+  "id": "o-tight",
+  "order": 1,
+  "name": {
+    "he": "O Tight - חדר יחיד",
+    "en": "O Tight - Single Room",
+    "fr": "O Tight - Chambre Simple"
+  },
+  "slug": "o-tight",
+  "occupancy": 1,
+  "bed": "0.76 x 2.00 m",
+  "dimensions_m": {
+    "w": 1.25,
+    "l": 2.15,
+    "h": 1.10
+  },
+  "sea_view": false,
+  "accessible": false,
+  "balcony": false,
+  "price_from": {
+    "ILS": 165,
+    "USD": 45,
+    "EUR": 42
+  },
+  "amenities": ["wifi", "towels", "lockers", "24_7_reception", "air_conditioning"],
+  "images": [
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/1-%20O%20Tight%20-%20Chambre%20Simple/1-%20the-o-pod-hotel-tel-aviv-single-capsule-room.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/1-%20O%20Tight%20-%20Chambre%20Simple/2-%20the-o-pod-hotel-tel-aviv-single-capsule-room.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/1-%20O%20Tight%20-%20Chambre%20Simple/4-%20cozy-single-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/1-%20O%20Tight%20-%20Chambre%20Simple/3-%20cozy-single-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/1-%20O%20Tight%20-%20Chambre%20Simple/5-%20the-o-pod-hotel-tel-aviv-solo-traveler-room.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/1-%20O%20Tight%20-%20Chambre%20Simple/6-%20capsule-hotel-tel-aviv-personal-storage.webp"
+  ],
+  "short": {
+    "he": "קפסולה יחידתית קומפקטית לשינה מושלמת. אידיאלית למטיילים סולו.",
+    "en": "Compact single pod for a perfect sleep. Ideal for solo travelers.",
+    "fr": "Capsule simple et compacte pour un sommeil parfait. Idéale pour voyageurs solo."
+  },
+  "description": {
+    "he": "קפסולת O Tight שלנו מעוצבת במיוחד עבור מטיילים סולו המחפשים מקום שקט ונוח לשינה. עם מזרון איכותי, תאורה אישית ושקע חשמל פרטי, תוכלו ליהנות מפרטיות מלאה במחיר נגיש.",
+    "en": "Our O Tight pod is specially designed for solo travelers seeking a quiet and comfortable place to sleep. With a quality mattress, personal lighting, and private electrical outlet, you'll enjoy complete privacy at an accessible price.",
+    "fr": "Notre capsule O Tight est spécialement conçue pour les voyageurs solo recherchant un endroit calme et confortable pour dormir. Avec un matelas de qualité, un éclairage personnel et une prise électrique privée, vous profiterez d'une intimité totale à un prix accessible."
+  },
+  "faq": [
+    {
+      "q": {
+        "he": "האם יש שירותים בתוך הקפסולה?",
+        "en": "Is the bathroom inside the pod?",
+        "fr": "Y a-t-il une salle de bain dans la capsule ?"
+      },
+      "a": {
+        "he": "שירותים ומקלחות משותפים ממוקמים באזורים המשותפים של המלון.",
+        "en": "Shared bathrooms and showers are located in the hotel's common areas.",
+        "fr": "Les toilettes et douches partagées sont situées dans les espaces communs de l'hôtel."
+      }
+    }
+  ]
+}

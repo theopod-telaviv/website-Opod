@@ -1,0 +1,45 @@
+{
+  "id": "o-dreamy",
+  "name": {
+    "he": "O Dreamy - חדר יחיד גבוה",
+    "en": "O Dreamy - Tall Single Room",
+    "fr": "O Dreamy - Chambre Simple Haute"
+  },
+  "slug": "o-dreamy",
+  "occupancy": 1,
+  "bed": "1.20 x 2.00 m",
+  "dimensions_m": {
+    "w": 1.50,
+    "l": 2.15,
+    "h": 1.10
+  },
+  "sea_view": false,
+  "accessible": false,
+  "balcony": false,
+  "price_from": {
+    "ILS": 205,
+    "USD": 56,
+    "EUR": 52
+  },
+  "amenities": ["wifi", "towels", "lockers", "24_7_reception", "air_conditioning", "usb_charging"],
+  "images": [
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/4-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute/1-%20the-o-pod-hotel-tel-aviv-o-dreamy-single-tall-room.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/4-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute/2-%20o-dreamy-single-tall-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/4-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute/3-%20tall-capsule-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/4-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute/4-%20modern-single-tall-room-the-o-pod-hotel-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/4-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute/5-%20the-o-pod-hotel-tel-aviv-high-ceiling-capsule.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/4-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute/6-%20cozy-single-tall-room-the-o-pod-tel-aviv.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/7-%20%20O%20Comfy-%20Grande%20Chambre%20Double%20Haute/1-%20the-o-pod-hotel-tel-aviv-o-comfy-double-tall-accessible-room.webp"
+  ],
+  "short": {
+    "he": "חדר יחיד גבוה ונוח עם תקרה גבוהה. מושלם למטיילים סולו.",
+    "en": "Comfortable tall single room with high ceiling. Perfect for solo travelers.",
+    "fr": "Chambre simple haute et confortable avec plafond haut. Parfaite pour voyageurs solo."
+  },
+  "description": {
+    "he": "O Dreamy מציעה חדר יחיד מרווח עם תקרה גבוהה. עם מיטה איכותית, תאורה אישית, שקעי חשמל ו-USB, ואחסון פרטי. אידיאלי למטיילים סולו המחפשים מרחב ונוחות.",
+    "en": "O Dreamy offers a spacious single room with high ceiling. With a quality bed, personal lighting, power outlets and USB charging, and private storage. Ideal for solo travelers seeking space and comfort.",
+    "fr": "O Dreamy offre une chambre simple spacieuse avec plafond haut. Avec un lit de qualité, un éclairage personnel, des prises électriques et USB, et un rangement privé. Idéale pour les voyageurs solo recherchant espace et confort."
+  },
+  "faq": []
+}

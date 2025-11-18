@@ -30,6 +30,8 @@
     "accessible": "Accessible",
     "from": "À partir de",
     "night": "nuit",
+    "excludingVat": "*",
+    "vatNote": "* Prix hors TVA. Une TVA de 18% s'applique aux résidents israéliens.",
     "details": "Voir détails",
     "book": "Réserver",
     "viewAll": "Voir toutes les capsules",
@@ -68,7 +70,7 @@
     "address": "Kaufmann St 2, Tel Aviv-Yafo, 6801294",
     "phone": "077-756-5350",
     "whatsapp": "+972 58-595-0580",
-    "email": "hello@theopodhotel.com",
+    "email": "reservations@theopodhotel.com",
     "followUs": "Suivez-nous",
     "quickLinks": "Liens Rapides",
     "legal": "Légal",
@@ -82,7 +84,8 @@
     "madeBy": "Site web réalisé par"
   },
   "testimonials": {
-    "title": "Ce que disent nos clients"
+    "title": "Ce que disent nos clients",
+    "seeAllReviews": "Voir tous les avis"
   },
   "reassurance": {
     "bestPrice": "Meilleur Prix Direct",
@@ -151,7 +154,7 @@
     "phoneNumber": "077-756-5350",
     "reception247": "Réception 24/7",
     "email": "E-mail",
-    "emailAddress": "hello@theopodhotel.com",
+    "emailAddress": "reservations@theopodhotel.com",
     "replyTime": "Nous répondons sous 24 heures",
     "address": "Adresse",
     "addressLine1": "Kaufmann St 2",
@@ -249,7 +252,7 @@
     "section3Title": "Sécurité des Données",
     "section3Text": "Nous appliquons des mesures de sécurité standards. Toutes les transactions sont cryptées avec SSL.",
     "section4Title": "Vos Droits",
-    "section4Text": "Vous avez le droit d'accéder, corriger ou supprimer vos données. Contactez-nous : hello@theopodhotel.com.",
+    "section4Text": "Vous avez le droit d'accéder, corriger ou supprimer vos données. Contactez-nous : reservations@theopodhotel.com.",
     "section5Title": "Cookies",
     "section5Text": "Nous utilisons des cookies pour améliorer votre expérience. Gérez vos préférences via votre navigateur."
   },
