@@ -16,7 +16,7 @@ Quand quelqu'un cherche **"the o pod hotel tel aviv"** sur Google, voici ce qu'i
 │ ⭐⭐⭐⭐⭐ 5/5 · (320 avis)                                    │
 │                                                              │
 │ The O Pod Hotel Tel Aviv - Modern Pod Hotel...              │
-│ https://the-opod-hotel-telaviv.netlify.app                  │
+│ https://opodhotel.com                  │
 │                                                              │
 │ L'hôtel capsule le moins cher et le mieux placé de Tel      │
 │ Aviv en face de la mer à partir de 165₪. Hôtel capsule...   │
@@ -27,7 +27,7 @@ Quand quelqu'un cherche **"the o pod hotel tel aviv"** sur Google, voici ce qu'i
 ```
 ⭐⭐⭐⭐⭐ 5/5 · (320 avis)
 The O Pod Hotel Tel Aviv
-https://the-opod-hotel-telaviv.netlify.app/fr
+https://opodhotel.com/fr
 
 L'hôtel capsule le moins cher et le mieux placé de Tel Aviv
 en face de la mer à partir de 165₪. Hôtel capsule moderne...
@@ -37,7 +37,7 @@ en face de la mer à partir de 165₪. Hôtel capsule moderne...
 ```
 ⭐⭐⭐⭐⭐ 5/5 · (320 reviews)
 The O Pod Hotel Tel Aviv
-https://the-opod-hotel-telaviv.netlify.app/en
+https://opodhotel.com/en
 
 The cheapest and best-located pod hotel in Tel Aviv facing
 the sea from 165₪. Modern pod hotel steps from the beach...
@@ -47,7 +47,7 @@ the sea from 165₪. Modern pod hotel steps from the beach...
 ```
 ⭐⭐⭐⭐⭐ 5/5 · (320 ביקורות)
 The O Pod Hotel Tel Aviv
-https://the-opod-hotel-telaviv.netlify.app/he
+https://opodhotel.com/he
 
 מלון הקפסולות הזול והממוקם הטוב ביותר בתל אביב מול הים החל מ-165₪...
 ```
@@ -112,19 +112,19 @@ Google scanne ton site et lit ces données structurées. Il comprend :
 
 1. **[ ] Soumettre le sitemap dans Google Search Console**
    - Va sur https://search.google.com/search-console
-   - Ajoute la propriété : `https://the-opod-hotel-telaviv.netlify.app`
+   - Ajoute la propriété : `https://opodhotel.com`
    - Vérifie avec la méthode "Balise HTML" (déjà configurée ✅)
    - Soumets le sitemap : `sitemap.xml`
 
 2. **[ ] Demander l'indexation manuelle** (accélère le processus)
    - Dans Google Search Console, utilise "Inspecteur d'URL"
-   - Entre : `https://the-opod-hotel-telaviv.netlify.app/fr`
+   - Entre : `https://opodhotel.com/fr`
    - Clique "Demander une indexation"
    - Répète pour `/en` et `/he`
 
 3. **[ ] Tester les données structurées**
    - Va sur https://search.google.com/test/rich-results
-   - Entre ton URL : `https://the-opod-hotel-telaviv.netlify.app/fr`
+   - Entre ton URL : `https://opodhotel.com/fr`
    - Vérifie que tu vois : "Hôtel" avec "Note agrégée"
    - Les étoiles doivent être détectées ✅
 
@@ -139,7 +139,7 @@ Google scanne ton site et lit ces données structurées. Il comprend :
 ### Test 1 : Vérifier les données structurées
 
 1. Va sur https://search.google.com/test/rich-results
-2. Entre : `https://the-opod-hotel-telaviv.netlify.app/fr`
+2. Entre : `https://opodhotel.com/fr`
 3. Clique "Tester l'URL"
 4. Tu dois voir :
    ```
@@ -150,7 +150,7 @@ Google scanne ton site et lit ces données structurées. Il comprend :
 
 ### Test 2 : Inspecter le code source
 
-1. Va sur ton site : https://the-opod-hotel-telaviv.netlify.app/fr
+1. Va sur ton site : https://opodhotel.com/fr
 2. Clique droit → "Afficher le code source"
 3. Cherche (Ctrl+F) : `"aggregateRating"`
 4. Tu dois voir :
@@ -164,7 +164,7 @@ Google scanne ton site et lit ces données structurées. Il comprend :
 
 ### Test 3 : Vérifier que ce n'est PAS visible sur la page
 
-1. Va sur ton site : https://the-opod-hotel-telaviv.netlify.app/fr
+1. Va sur ton site : https://opodhotel.com/fr
 2. Tu NE DOIS PAS voir les 5 étoiles ni "(320 avis)" affichés
 3. C'est normal ! C'est invisible pour les visiteurs, visible seulement pour Google
 

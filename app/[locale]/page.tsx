@@ -53,7 +53,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       locale: locale,
       type: 'website',
       siteName: 'The O Pod Hotel Tel Aviv',
-      url: `https://the-opod-hotel-telaviv.netlify.app/${locale}`
+      url: `https://opodhotel.com/${locale}`
     },
     twitter: {
       card: 'summary_large_image',
@@ -61,7 +61,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       description,
       images: ['https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-og-home.png'],
     },
-    metadataBase: new URL('https://the-opod-hotel-telaviv.netlify.app'),
+    metadataBase: new URL('https://opodhotel.com'),
     alternates: {
       canonical: `/${locale}`,
       languages: {

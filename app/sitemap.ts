@@ -7,7 +7,7 @@ import { getBlogPosts } from '@/lib/supabase';
 export const revalidate = 3600; // Revalidate sitemap every hour
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = 'https://the-opod-hotel-telaviv.netlify.app';
+  const baseUrl = 'https://opodhotel.com';
 
   // Get capsules
   const capsulesDir = path.join(process.cwd(), 'content/capsules');

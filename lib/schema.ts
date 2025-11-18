@@ -2,10 +2,10 @@ export function getOrganizationSchema(locale: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Hotel',
-    '@id': 'https://the-opod-hotel-telaviv.netlify.app/#organization',
+    '@id': 'https://opodhotel.com/#organization',
     name: 'The O Pod Hotel',
     alternateName: 'O Pod Hotel Tel Aviv',
-    url: 'https://the-opod-hotel-telaviv.netlify.app',
+    url: 'https://opodhotel.com',
     logo: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-favicon-512x512.png',
     image: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-og-home.png',
     description: {
@@ -58,15 +58,15 @@ export function getWebsiteSchema(locale: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    '@id': 'https://the-opod-hotel-telaviv.netlify.app/#website',
-    url: 'https://the-opod-hotel-telaviv.netlify.app',
+    '@id': 'https://opodhotel.com/#website',
+    url: 'https://opodhotel.com',
     name: 'The O Pod Hotel',
     inLanguage: locale === 'he' ? 'he-IL' : locale === 'fr' ? 'fr-FR' : 'en-US',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `https://the-opod-hotel-telaviv.netlify.app/${locale}/capsules?search={search_term_string}`,
+        urlTemplate: `https://opodhotel.com/${locale}/capsules?search={search_term_string}`,
       },
       'query-input': 'required name=search_term_string',
     },
@@ -102,7 +102,7 @@ export function getCapsuleSchema(
       price: capsule.price_from[currency],
       priceCurrency: currency,
       availability: 'https://schema.org/InStock',
-      url: `https://the-opod-hotel-telaviv.netlify.app/${locale}/capsules/${capsule.slug}`,
+      url: `https://opodhotel.com/${locale}/capsules/${capsule.slug}`,
       priceValidUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
     },
     brand: {

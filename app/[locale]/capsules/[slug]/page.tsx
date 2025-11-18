@@ -50,7 +50,7 @@ export async function generateMetadata({
       title: `${capsule.name[locale]} | The O Pod Hotel`,
       description: capsule.short[locale],
       images: [capsule.images[0]],
-      url: `https://the-opod-hotel-telaviv.netlify.app/${locale}/capsules/${slug}`,
+      url: `https://opodhotel.com/${locale}/capsules/${slug}`,
       siteName: 'The O Pod Hotel Tel Aviv',
       type: 'website',
       locale: locale,

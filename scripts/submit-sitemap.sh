@@ -3,7 +3,7 @@
 # Script pour soumettre automatiquement le sitemap à Google Search Console
 # Exécuté après chaque déploiement Netlify
 
-SITEMAP_URL="https://the-opod-hotel-telaviv.netlify.app/sitemap.xml"
+SITEMAP_URL="https://opodhotel.com/sitemap.xml"
 
 echo "🔍 Soumission du sitemap à Google Search Console..."
 echo "URL du sitemap: $SITEMAP_URL"

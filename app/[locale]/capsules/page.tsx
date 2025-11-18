@@ -38,7 +38,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       locale: locale,
       type: 'website',
       siteName: 'The O Pod Hotel Tel Aviv',
-      url: `https://the-opod-hotel-telaviv.netlify.app/${locale}/capsules`
+      url: `https://opodhotel.com/${locale}/capsules`
     },
     twitter: {
       card: 'summary_large_image',

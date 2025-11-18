@@ -69,18 +69,18 @@ Cette route existe dans le projet et doit être dans le sitemap.
 
 ### Test 1 : Vérifier le sitemap XML
 
-1. **URL à tester** : https://the-opod-hotel-telaviv.netlify.app/sitemap.xml
+1. **URL à tester** : https://opodhotel.com/sitemap.xml
 
 2. **Ce que tu dois voir** :
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://the-opod-hotel-telaviv.netlify.app/fr</loc>
+    <loc>https://opodhotel.com/fr</loc>
     <lastmod>2025-11-18T...</lastmod>
   </url>
   <url>
-    <loc>https://the-opod-hotel-telaviv.netlify.app/fr/capsules</loc>
+    <loc>https://opodhotel.com/fr/capsules</loc>
     <lastmod>2025-11-18T...</lastmod>
   </url>
   <!-- ... etc -->
@@ -89,13 +89,13 @@ Cette route existe dans le projet et doit être dans le sitemap.
 
 3. **Vérifications** :
    - ✅ Pas d'erreur XML (le fichier s'affiche correctement)
-   - ✅ Toutes les URLs commencent par `https://the-opod-hotel-telaviv.netlify.app`
+   - ✅ Toutes les URLs commencent par `https://opodhotel.com`
    - ✅ Chaque URL a un `<loc>` et un `<lastmod>`
    - ✅ Environ 48-50 URLs (27 pages + 21 capsules + articles de blog)
 
 ### Test 2 : Vérifier le robots.txt
 
-1. **URL à tester** : https://the-opod-hotel-telaviv.netlify.app/robots.txt
+1. **URL à tester** : https://opodhotel.com/robots.txt
 
 2. **Ce que tu dois voir** :
 ```
@@ -106,7 +106,7 @@ Disallow: /admin/
 Disallow: /_next/
 Disallow: /private/
 
-Sitemap: https://the-opod-hotel-telaviv.netlify.app/sitemap.xml
+Sitemap: https://opodhotel.com/sitemap.xml
 ```
 
 3. **Vérifications** :
@@ -119,7 +119,7 @@ Sitemap: https://the-opod-hotel-telaviv.netlify.app/sitemap.xml
 1. **Outil** : https://www.xml-sitemaps.com/validate-xml-sitemap.html
 
 2. **Actions** :
-   - Entre l'URL : `https://the-opod-hotel-telaviv.netlify.app/sitemap.xml`
+   - Entre l'URL : `https://opodhotel.com/sitemap.xml`
    - Clique "Start"
 
 3. **Résultat attendu** :

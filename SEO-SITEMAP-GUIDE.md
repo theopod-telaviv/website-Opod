@@ -22,7 +22,7 @@
 
 #### 3. **`/public/google3f34b9262462e4fa.html`** - Vérification Google Search Console
 - ✅ Fichier de vérification placé dans `/public`
-- ✅ Accessible via : `https://the-opod-hotel-telaviv.netlify.app/google3f34b9262462e4fa.html`
+- ✅ Accessible via : `https://opodhotel.com/google3f34b9262462e4fa.html`
 
 #### 4. **`/app/[locale]/layout.tsx`** - Meta tag de vérification
 - ✅ Ajout de `<meta name="google-site-verification" content="google3f34b9262462e4fa" />`
@@ -96,7 +96,7 @@
 ### Étape 1 : Vérifier la propriété
 1. Va sur [Google Search Console](https://search.google.com/search-console)
 2. Clique sur "Ajouter une propriété"
-3. Sélectionne "Préfixe d'URL" : `https://the-opod-hotel-telaviv.netlify.app`
+3. Sélectionne "Préfixe d'URL" : `https://opodhotel.com`
 4. Choisis la méthode **"Balise HTML"** ou **"Fichier HTML"** :
    - **Balise HTML** : Déjà ajoutée dans `layout.tsx` ✅
    - **Fichier HTML** : Déjà uploadé dans `/public/` ✅
@@ -104,7 +104,7 @@
 
 ### Étape 2 : Soumettre le sitemap
 1. Dans Google Search Console, va dans **"Sitemaps"**
-2. Entre l'URL du sitemap : `https://the-opod-hotel-telaviv.netlify.app/sitemap.xml`
+2. Entre l'URL du sitemap : `https://opodhotel.com/sitemap.xml`
 3. Clique sur "Soumettre"
 
 ### Étape 3 : Attendre l'indexation
@@ -169,11 +169,11 @@ Basé sur 3 nouveaux articles/semaine (lundi, mercredi, vendredi) :
    - Performance des recherches
 
 2. **Sitemap XML**
-   - Vérifier que les nouveaux articles apparaissent : `https://the-opod-hotel-telaviv.netlify.app/sitemap.xml`
+   - Vérifier que les nouveaux articles apparaissent : `https://opodhotel.com/sitemap.xml`
    - Tester avec [XML Sitemap Validator](https://www.xml-sitemaps.com/validate-xml-sitemap.html)
 
 3. **Robots.txt**
-   - Vérifier : `https://the-opod-hotel-telaviv.netlify.app/robots.txt`
+   - Vérifier : `https://opodhotel.com/robots.txt`
    - Tester avec [Google Robots.txt Tester](https://support.google.com/webmasters/answer/6062598)
 
 4. **Données structurées**

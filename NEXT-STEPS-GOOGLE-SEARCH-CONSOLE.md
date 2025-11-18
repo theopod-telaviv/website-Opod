@@ -16,9 +16,9 @@
 ### Étape 1 : Attendre le déploiement Netlify ⏳
 Une fois que Netlify aura build le site (dans ~5 minutes), les URLs suivantes seront accessibles :
 
-- ✅ **Sitemap** : https://the-opod-hotel-telaviv.netlify.app/sitemap.xml
-- ✅ **Robots.txt** : https://the-opod-hotel-telaviv.netlify.app/robots.txt
-- ✅ **Fichier de vérification** : https://the-opod-hotel-telaviv.netlify.app/google3f34b9262462e4fa.html
+- ✅ **Sitemap** : https://opodhotel.com/sitemap.xml
+- ✅ **Robots.txt** : https://opodhotel.com/robots.txt
+- ✅ **Fichier de vérification** : https://opodhotel.com/google3f34b9262462e4fa.html
 
 ### Étape 2 : Vérifier ton site dans Google Search Console 🔍
 
@@ -29,7 +29,7 @@ Une fois que Netlify aura build le site (dans ~5 minutes), les URLs suivantes se
 2. **Ajouter une propriété**
    - Clique sur **"Ajouter une propriété"** (en haut à gauche)
    - Sélectionne **"Préfixe d'URL"**
-   - Entre : `https://the-opod-hotel-telaviv.netlify.app`
+   - Entre : `https://opodhotel.com`
    - Clique sur **"Continuer"**
 
 3. **Vérifier la propriété** (2 méthodes disponibles)
@@ -80,7 +80,7 @@ Une fois que Netlify aura build le site (dans ~5 minutes), les URLs suivantes se
    - En haut de Search Console, cherche **"Inspecteur d'URL"**
    - Entre une URL importante (ex: homepage) :
      ```
-     https://the-opod-hotel-telaviv.netlify.app/fr
+     https://opodhotel.com/fr
      ```
    - Clique sur **"Demander une indexation"**
    - Répète pour les URLs clés (homepage EN, HE, blog index, etc.)
@@ -94,7 +94,7 @@ Une fois que Netlify aura build le site (dans ~5 minutes), les URLs suivantes se
 ```
 ⭐⭐⭐⭐⭐ 5/5 (320 avis)
 The O Pod Hotel Tel Aviv - Modern Pod Hotel by the Mediterranean
-https://the-opod-hotel-telaviv.netlify.app/fr
+https://opodhotel.com/fr
 L'hôtel capsule le moins cher et le mieux placé de Tel Aviv
 en face de la mer à partir de 165₪. Hôtel capsule moderne...
 ```
@@ -128,7 +128,7 @@ en face de la mer à partir de 165₪. Hôtel capsule moderne...
 
 ### Le sitemap n'apparaît pas ?
 1. Attends le déploiement Netlify (5-10 min)
-2. Vérifie manuellement : https://the-opod-hotel-telaviv.netlify.app/sitemap.xml
+2. Vérifie manuellement : https://opodhotel.com/sitemap.xml
 3. Si erreur 404 → Vérifie les logs Netlify
 
 ### "Sitemap inaccessible" dans Search Console ?
@@ -159,8 +159,8 @@ Questions SEO/technique : opodhotel@gmail.com
 Coche au fur et à mesure :
 
 - [ ] Déploiement Netlify terminé
-- [ ] Sitemap accessible : https://the-opod-hotel-telaviv.netlify.app/sitemap.xml
-- [ ] Robots.txt accessible : https://the-opod-hotel-telaviv.netlify.app/robots.txt
+- [ ] Sitemap accessible : https://opodhotel.com/sitemap.xml
+- [ ] Robots.txt accessible : https://opodhotel.com/robots.txt
 - [ ] Google Search Console : Propriété vérifiée
 - [ ] Google Search Console : Sitemap soumis
 - [ ] Première indexation confirmée (24-48h)
