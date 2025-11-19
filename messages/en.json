@@ -51,7 +51,9 @@
     "usb_charging": "USB Charging",
     "sea_view": "Sea View",
     "reading_light": "Reading Light",
-    "mini_table": "Mini Table"
+    "mini_table": "Mini Table",
+    "wheelchair_accessible": "Wheelchair Accessible",
+    "wider_door": "Wider Door"
   },
   "booking": {
     "checkin": "Check-in",
@@ -221,6 +223,7 @@
     "title": "Terms & Conditions",
     "lastUpdated": "Last Updated: October 19, 2025",
     "intro": "By making a reservation, you agree to these terms and conditions.",
+    "content": "By booking a capsule at The O Pod Hotel, you agree to the present terms and conditions. All reservations must be guaranteed with a valid credit card, with payment required at the time of booking. Check-in is available from 3:00 PM, and check-out must be completed by 11:00 AM. Guests are expected to respect other guests and hotel property. Smoking is prohibited throughout the establishment. Quiet hours are enforced between 10:00 PM and 8:00 AM. Free cancellation is available up to 48 hours before check-in. Cancellations made within 48 hours of check-in will incur a one-night charge. The hotel is not responsible for the loss or damage to personal belongings. Secure lockers are provided for guest use.",
     "section1Title": "Reservations & Payments",
     "section1Text": "All reservations must be guaranteed with a valid credit card. Payment is required at booking.",
     "section2Title": "Check-in & Check-out",

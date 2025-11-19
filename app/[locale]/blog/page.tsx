@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { getBlogPosts } from '@/lib/supabase';
 import { Clock, Eye } from 'lucide-react';
 
-// Revalidate every 60 seconds (ISR)
-export const revalidate = 60;
+// Force dynamic rendering to prevent build errors when Supabase is unavailable
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const t = await getTranslations({ locale, namespace: 'blog' });

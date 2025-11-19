@@ -5,19 +5,25 @@ import { getBlogPost, getBlogPosts, incrementViews } from '@/lib/supabase';
 import { Clock, Eye, Calendar, ArrowLeft, Tag } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
-// Revalidate every 60 seconds (ISR)
-export const revalidate = 60;
+// Force dynamic rendering to prevent build errors when Supabase is unavailable
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export async function generateStaticParams() {
-  const posts = await getBlogPosts();
-  const locales = ['en', 'fr', 'he'];
+  try {
+    const posts = await getBlogPosts();
+    const locales = ['en', 'fr', 'he'];
 
-  return posts.flatMap(post =>
-    locales.map(locale => ({
-      locale,
-      slug: post.slug,
-    }))
-  );
+    return posts.flatMap(post =>
+      locales.map(locale => ({
+        locale,
+        slug: post.slug,
+      }))
+    );
+  } catch (error) {
+    console.error('Error generating static params for blog posts:', error);
+    return [];
+  }
 }
 
 export async function generateMetadata({

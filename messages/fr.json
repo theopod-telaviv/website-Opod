@@ -51,7 +51,9 @@
     "usb_charging": "Chargement USB",
     "sea_view": "Vue Mer",
     "reading_light": "Lampe de Lecture",
-    "mini_table": "Petite Table"
+    "mini_table": "Petite Table",
+    "wheelchair_accessible": "Accessible aux Fauteuils Roulants",
+    "wider_door": "Porte Élargie"
   },
   "booking": {
     "checkin": "Arrivée",
@@ -221,6 +223,7 @@
     "title": "Conditions Générales",
     "lastUpdated": "Dernière mise à jour : 19 octobre 2025",
     "intro": "En effectuant une réservation, vous acceptez ces conditions générales.",
+    "content": "En réservant une capsule au The O Pod Hotel, vous acceptez les présentes conditions générales. La réservation doit être garantie par une carte bancaire valide. L'arrivée s'effectue à partir de 15h00 et le départ jusqu'à 11h00. Le respect des autres clients et des lieux est requis. Il est interdit de fumer dans l'ensemble de l'établissement. Les heures calmes sont de 22h00 à 8h00. Une annulation gratuite est possible jusqu'à 48h avant l'arrivée. En cas d'annulation tardive (moins de 48h), des frais équivalents à une nuitée seront appliqués. L'hôtel décline toute responsabilité en cas de perte ou de dommage d'effets personnels. Des casiers sécurisés sont mis à disposition des clients.",
     "section1Title": "Réservations & Paiements",
     "section1Text": "Toute réservation doit être garantie par carte bancaire valide. Paiement requis à la réservation.",
     "section2Title": "Arrivée & Départ",
