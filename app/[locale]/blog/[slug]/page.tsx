@@ -5,9 +5,8 @@ import { getBlogPost, getBlogPosts, incrementViews } from '@/lib/supabase';
 import { Clock, Eye, Calendar, ArrowLeft, Tag } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
-// Use ISR with error handling to prevent build failures
-export const revalidate = 60;
-export const dynamicParams = true;
+// Force dynamic rendering - page served by Netlify Function (not pre-generated)
+export const dynamic = 'force-dynamic';
 
 export async function generateStaticParams() {
   try {
