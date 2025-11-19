@@ -5,8 +5,8 @@ import { getBlogPost, getBlogPosts, incrementViews } from '@/lib/supabase';
 import { Clock, Eye, Calendar, ArrowLeft, Tag } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
-// ISR: Regenerate page every hour, or on-demand via revalidate API
-export const revalidate = 3600; // 1 hour
+// ISR: Refresh page every 60 seconds automatically
+export const revalidate = 60;
 export const dynamicParams = true; // Allow new articles without rebuild
 
 export async function generateStaticParams() {

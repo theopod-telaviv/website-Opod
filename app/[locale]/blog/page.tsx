@@ -4,8 +4,8 @@ import Link from 'next/link';
 import { getBlogPosts } from '@/lib/supabase';
 import { Clock, Eye } from 'lucide-react';
 
-// ISR: Regenerate page every hour, or on-demand via revalidate API
-export const revalidate = 3600; // 1 hour
+// ISR: Refresh page every 60 seconds automatically
+export const revalidate = 60;
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const t = await getTranslations({ locale, namespace: 'blog' });
