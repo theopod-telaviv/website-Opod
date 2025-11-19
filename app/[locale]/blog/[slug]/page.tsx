@@ -5,9 +5,9 @@ import { getBlogPost, getBlogPosts, incrementViews } from '@/lib/supabase';
 import { Clock, Eye, Calendar, ArrowLeft, Tag } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
-// Force dynamic rendering to prevent build errors when Supabase is unavailable
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+// Use ISR with error handling to prevent build failures
+export const revalidate = 60;
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
   try {
