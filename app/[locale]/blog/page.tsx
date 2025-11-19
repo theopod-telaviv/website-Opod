@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { getBlogPosts } from '@/lib/supabase';
 import { Clock, Eye } from 'lucide-react';
 
+// Force cette page à être générée dynamiquement (pas pendant le build)
+export const dynamic = 'force-dynamic';
 // ISR: Refresh page every 60 seconds automatically
 export const revalidate = 60;
 

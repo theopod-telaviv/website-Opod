@@ -5,6 +5,8 @@ import { getBlogPost, getBlogPosts, incrementViews } from '@/lib/supabase';
 import { Clock, Eye, Calendar, ArrowLeft, Tag } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
+// Force cette page à être générée dynamiquement (pas pendant le build)
+export const dynamic = 'force-dynamic';
 // ISR: Refresh page every 60 seconds automatically
 export const revalidate = 60;
 export const dynamicParams = true; // Allow new articles without rebuild
