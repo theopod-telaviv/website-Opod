@@ -47,17 +47,6 @@
   to = "/sitemap.xml"
   status = 301
 
-# ISR (Incremental Static Regeneration) pour les articles de blog
-[[redirects]]
-  from = "/*/blog"
-  to = "/.netlify/functions/___netlify-handler"
-  status = 200
-
-[[redirects]]
-  from = "/*/blog/*"
-  to = "/.netlify/functions/___netlify-handler"
-  status = 200
-
 # Fonction serverless pour notifier Google après chaque build
 [[plugins]]
   package = "netlify-plugin-submit-sitemap"

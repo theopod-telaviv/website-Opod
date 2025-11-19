@@ -5,24 +5,14 @@ import { getBlogPost, getBlogPosts, incrementViews } from '@/lib/supabase';
 import { Clock, Eye, Calendar, ArrowLeft, Tag } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
-// Force dynamic rendering - page served by Netlify Function (not pre-generated)
-export const dynamic = 'force-dynamic';
+// ISR: Regenerate page every hour, or on-demand via revalidate API
+export const revalidate = 3600; // 1 hour
+export const dynamicParams = true; // Allow new articles without rebuild
 
 export async function generateStaticParams() {
-  try {
-    const posts = await getBlogPosts();
-    const locales = ['en', 'fr', 'he'];
-
-    return posts.flatMap(post =>
-      locales.map(locale => ({
-        locale,
-        slug: post.slug,
-      }))
-    );
-  } catch (error) {
-    console.error('Error generating static params for blog posts:', error);
-    return [];
-  }
+  // Return empty array during build to avoid Supabase dependency
+  // Pages will be generated on-demand when first visited
+  return [];
 }
 
 export async function generateMetadata({
