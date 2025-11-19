@@ -110,11 +110,11 @@ export default async function BlogPostPage({
             </div>
           </div>
 
-          {post.cover_image && (
+          {post.cover_image && post.cover_image !== null && (
             <div className="relative h-96 mb-8 rounded-2xl overflow-hidden">
               <Image
                 src={post.cover_image}
-                alt={title}
+                alt={title || 'Blog post'}
                 fill
                 className="object-cover"
                 priority

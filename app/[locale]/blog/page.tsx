@@ -53,20 +53,24 @@ export default async function BlogPage({ params: { locale } }: { params: { local
             </div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {posts.map((post) => (
+              {posts
+                .filter((post) => post && post.cover_image && post.slug)
+                .map((post) => (
                 <Link
                   key={post.id}
                   href={`/${locale}/blog/${post.slug}`}
                   className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
                 >
-                  <div className="relative h-56 overflow-hidden">
-                    <Image
-                      src={post.cover_image}
-                      alt={getLocalizedField(post, 'title')}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
+                  {post.cover_image && (
+                    <div className="relative h-56 overflow-hidden">
+                      <Image
+                        src={post.cover_image}
+                        alt={getLocalizedField(post, 'title') || 'Blog post image'}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                  )}
                   <div className="p-6">
                     <div className="flex items-center gap-2 mb-3">
                       <span className="text-xs font-semibold text-[#2EC4B6] bg-[#2EC4B6]/10 px-3 py-1 rounded-full">

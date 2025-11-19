@@ -48,7 +48,15 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
       return [];
     }
 
-    return data || [];
+    // Filter out posts with missing critical data
+    const validPosts = (data || []).filter((post) => {
+      return post &&
+             post.slug &&
+             post.cover_image &&
+             (post.title_en || post.title_fr || post.title_he);
+    });
+
+    return validPosts;
   } catch (error) {
     console.error('Exception in getBlogPosts:', error);
     // Return empty array instead of throwing to prevent build failures
