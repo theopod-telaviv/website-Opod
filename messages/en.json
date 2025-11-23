@@ -3,7 +3,6 @@
     "discover": "Discover",
     "capsules": "Capsules",
     "hotel": "Hotel",
-    "experiences": "Experiences",
     "blog": "Blog",
     "faq": "FAQ",
     "contact": "Contact",
@@ -30,6 +29,8 @@
     "accessible": "Accessible",
     "from": "From",
     "night": "night",
+    "excludingVat": "*",
+    "vatNote": "* Price excluding VAT. 18% VAT applies to Israeli residents.",
     "details": "View Details",
     "book": "Book Now",
     "viewAll": "View All Capsules",
@@ -50,7 +51,9 @@
     "usb_charging": "USB Charging",
     "sea_view": "Sea View",
     "reading_light": "Reading Light",
-    "mini_table": "Mini Table"
+    "mini_table": "Mini Table",
+    "wheelchair_accessible": "Wheelchair Accessible",
+    "wider_door": "Wider Door"
   },
   "booking": {
     "checkin": "Check-in",
@@ -82,7 +85,8 @@
     "madeBy": "Website created by"
   },
   "testimonials": {
-    "title": "What Our Guests Say"
+    "title": "What Our Guests Say",
+    "seeAllReviews": "See All Reviews"
   },
   "reassurance": {
     "bestPrice": "Best Price Direct",
@@ -140,9 +144,6 @@
     "viewAll": "View All Photos",
     "showLess": "Show Less"
   },
-  "experiences": {
-    "bookTour": "Book a Tour"
-  },
   "contact": {
     "title": "Contact Us",
     "subtitle": "We're here to help 24/7",
@@ -181,7 +182,7 @@
     "allPosts": "All Posts",
     "categories": "Categories",
     "tags": "Tags",
-    "latestPosts": "Latest Posts",
+    "latestPosts": "Articles You Might Like",
     "featuredPosts": "Featured Posts",
     "noPostsFound": "No posts found",
     "searchPlaceholder": "Search articles..."
@@ -190,27 +191,39 @@
     "title": "We value your privacy",
     "description": "We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. By clicking 'Accept All', you consent to our use of cookies.",
     "accept": "Accept All",
-    "decline": "Decline"
+    "decline": "Decline",
+    "learnMore": "Read our Privacy Policy"
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: October 19, 2025",
-    "intro": "At The O Pod Hotel, we respect your privacy and are committed to protecting your personal data.",
-    "section1Title": "Information We Collect",
-    "section1Text": "We collect personal information including your name, email, phone number, and payment details when you make a reservation.",
-    "section2Title": "How We Use Your Information",
-    "section2Text": "We use your information to process bookings, communicate about your reservation, and improve our services.",
-    "section3Title": "Data Security",
-    "section3Text": "We implement industry-standard security measures. All payment transactions are encrypted using SSL technology.",
-    "section4Title": "Your Rights",
-    "section4Text": "You have the right to access, correct, or delete your personal data. Contact us at hello@theopodhotel.com.",
-    "section5Title": "Cookies",
-    "section5Text": "We use cookies to enhance your browsing experience. You can control preferences through your browser settings."
+    "lastUpdated": "Last Updated: 10/11/2025",
+    "intro": "(Updated in accordance with Amendment No. 13 to the Privacy Protection Law)",
+    "section1Title": "1. Introduction",
+    "section1Text": "The hotel \"TheOpod Hotel\" – (we) is committed to protecting the privacy of our guests and website users. This privacy statement explains how we collect, use, store, and process personal information in accordance with the Privacy Protection Law, including Amendment No. 13, and relevant regulations.",
+    "section2Title": "2. Who manages the information",
+    "section2Text": "Information is managed by:\nTheopod Hotel\nBusiness Number: 513718254\nAddress: Kaufmann Street 2, Tel Aviv\nContact email for privacy matters: opodhotel@gmail.com",
+    "section3Title": "3. What types of information do we collect",
+    "section3Text": "a. Contact details: Full name, phone, email.\nb. Booking and stay details: Dates, room type, accommodation preferences, number of guests.\nc. Payment information: Credit card details are processed through a certified payment provider; we do not store complete card information.\nd. Browsing and device data: IP address, browser, cookies, usage data for analytics and user experience improvement.\ne. Communications with the hotel: Inquiries via phone/email/website forms.",
+    "section4Title": "4. Purposes of information processing and legal basis",
+    "section4Text": "a. Managing bookings, service operation, and providing hospitality experience — processing essential to contract execution.\nb. Billing, accounting, and compliance with legal obligations.\nc. Information security and fraud prevention — legitimate interest.\nd. Sending marketing offers — only with active consent (opt-in).\ne. Service improvement, website usage analysis, and technological operation.",
+    "section5Title": "5. Disclosure and transfer of information to third parties",
+    "section5Text": "We may transfer information to the following entities, subject to data protection agreements:\n• Secure payment providers (Payment Gateway)\n• External booking system/Channel Manager\n• Cloud services hosting the website\n• Information security and analytics providers (e.g., Google Analytics)\n\nTransfer of information outside Israel will be done in accordance with legal requirements and applicable regulations.",
+    "section6Title": "6. Information retention",
+    "section6Text": "We will retain personal information for the period required for processing purposes or according to law:\n• Booking details and invoices — up to 7 years for tax and regulatory purposes.\n• Operational and browsing data — according to operational needs, usually for a shorter period.\n• Marketing information — until the user requests deletion or ceases use.",
+    "section7Title": "7. Data subject rights",
+    "section7Text": "In accordance with Amendment 13, you have the following rights:\n• Right of access to information\n• Right to correct inaccurate information\n• Right to erasure of information (subject to legal obligations)\n• Right to object to information processing or limit processing\n• Right to file a complaint with the Privacy Protection Authority\n\nRequests can be sent to: opodhotel@gmail.com",
+    "section8Title": "8. Information security",
+    "section8Text": "We use reasonable technical and organizational measures to protect personal information, including encryption, access controls, and separation of sensitive information. Nevertheless, complete security cannot be guaranteed. In case of a significant security incident, we will act according to legal reporting requirements.",
+    "section9Title": "9. Data Protection Officer (if applicable)",
+    "section9Text": "If a data protection officer is appointed according to the scope of processing, contact details will be updated here. Currently, privacy responsibility is managed by the hotel management.",
+    "section10Title": "10. Policy updates",
+    "section10Text": "We will update this document from time to time. Last update date: 10/11/2025\nUse of the website constitutes consent to this policy."
   },
   "terms": {
     "title": "Terms & Conditions",
     "lastUpdated": "Last Updated: October 19, 2025",
     "intro": "By making a reservation, you agree to these terms and conditions.",
+    "content": "By booking a capsule at The O Pod Hotel, you agree to the present terms and conditions. All reservations must be guaranteed with a valid credit card, with payment required at the time of booking. Check-in is available from 3:00 PM, and check-out must be completed by 11:00 AM. Guests are expected to respect other guests and hotel property. Smoking is prohibited throughout the establishment. Quiet hours are enforced between 10:00 PM and 8:00 AM. Free cancellation is available up to 48 hours before check-in. Cancellations made within 48 hours of check-in will incur a one-night charge. The hotel is not responsible for the loss or damage to personal belongings. Secure lockers are provided for guest use.",
     "section1Title": "Reservations & Payments",
     "section1Text": "All reservations must be guaranteed with a valid credit card. Payment is required at booking.",
     "section2Title": "Check-in & Check-out",

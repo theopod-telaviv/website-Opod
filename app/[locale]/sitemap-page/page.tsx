@@ -19,7 +19,6 @@ export default async function SitemapPage({ params: { locale } }: { params: { lo
     { name: tNav('discover'), href: `/${locale}`, icon: Home },
     { name: tNav('capsules'), href: `/${locale}/capsules`, icon: Bed },
     { name: tNav('hotel'), href: `/${locale}/hotel`, icon: Building2 },
-    { name: tNav('experiences'), href: `/${locale}/experience-tel-aviv`, icon: Sparkles },
     { name: tNav('blog'), href: `/${locale}/blog`, icon: MessageSquare },
     { name: tNav('faq'), href: `/${locale}/faq`, icon: HelpCircle },
     { name: tNav('contact'), href: `/${locale}/contact`, icon: Mail },

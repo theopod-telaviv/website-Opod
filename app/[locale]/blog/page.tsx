@@ -4,7 +4,9 @@ import Link from 'next/link';
 import { getBlogPosts } from '@/lib/supabase';
 import { Clock, Eye } from 'lucide-react';
 
-// Revalidate every 60 seconds (ISR)
+// Force cette page à être générée dynamiquement (pas pendant le build)
+export const dynamic = 'force-dynamic';
+// ISR: Refresh page every 60 seconds automatically
 export const revalidate = 60;
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
@@ -17,7 +19,17 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 
 export default async function BlogPage({ params: { locale } }: { params: { locale: string } }) {
   const t = await getTranslations({ locale, namespace: 'blog' });
-  const posts = await getBlogPosts();
+
+  // Fetch blog posts with error handling
+  let posts: any[] = [];
+  let error = null;
+
+  try {
+    posts = await getBlogPosts();
+  } catch (e) {
+    console.error('Error in BlogPage:', e);
+    error = e;
+  }
 
   const getLocalizedField = (post: any, field: string) => {
     const fieldWithLocale = `${field}_${locale}`;
@@ -41,20 +53,24 @@ export default async function BlogPage({ params: { locale } }: { params: { local
             </div>
           ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {posts.map((post) => (
+              {posts
+                .filter((post) => post && post.cover_image && post.slug)
+                .map((post) => (
                 <Link
                   key={post.id}
                   href={`/${locale}/blog/${post.slug}`}
                   className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300"
                 >
-                  <div className="relative h-56 overflow-hidden">
-                    <Image
-                      src={post.cover_image}
-                      alt={getLocalizedField(post, 'title')}
-                      fill
-                      className="object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
+                  {post.cover_image && (
+                    <div className="relative h-56 overflow-hidden">
+                      <Image
+                        src={post.cover_image}
+                        alt={getLocalizedField(post, 'title') || 'Blog post image'}
+                        fill
+                        className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </div>
+                  )}
                   <div className="p-6">
                     <div className="flex items-center gap-2 mb-3">
                       <span className="text-xs font-semibold text-[#2EC4B6] bg-[#2EC4B6]/10 px-3 py-1 rounded-full">

@@ -5,19 +5,16 @@ import { getBlogPost, getBlogPosts, incrementViews } from '@/lib/supabase';
 import { Clock, Eye, Calendar, ArrowLeft, Tag } from 'lucide-react';
 import { notFound } from 'next/navigation';
 
-// Revalidate every 60 seconds (ISR)
+// Force cette page à être générée dynamiquement (pas pendant le build)
+export const dynamic = 'force-dynamic';
+// ISR: Refresh page every 60 seconds automatically
 export const revalidate = 60;
+export const dynamicParams = true; // Allow new articles without rebuild
 
 export async function generateStaticParams() {
-  const posts = await getBlogPosts();
-  const locales = ['en', 'fr', 'he'];
-
-  return posts.flatMap(post =>
-    locales.map(locale => ({
-      locale,
-      slug: post.slug,
-    }))
-  );
+  // Return empty array during build to avoid Supabase dependency
+  // Pages will be generated on-demand when first visited
+  return [];
 }
 
 export async function generateMetadata({
@@ -60,9 +57,13 @@ export default async function BlogPostPage({
   // Increment views (async, don't await)
   incrementViews(slug);
 
-  const getLocalizedField = (field: string) => {
+  // Fetch latest 3 posts (excluding current post)
+  const allPosts = await getBlogPosts();
+  const latestPosts = allPosts.filter((p) => p.slug !== slug).slice(0, 3);
+
+  const getLocalizedField = (field: string, postData = post) => {
     const fieldWithLocale = `${field}_${locale}`;
-    return post[fieldWithLocale as keyof typeof post] || post[`${field}_en` as keyof typeof post];
+    return postData[fieldWithLocale as keyof typeof postData] || postData[`${field}_en` as keyof typeof postData];
   };
 
   const title = getLocalizedField('title') as string;
@@ -113,11 +114,11 @@ export default async function BlogPostPage({
             </div>
           </div>
 
-          {post.cover_image && (
+          {post.cover_image && post.cover_image !== null && (
             <div className="relative h-96 mb-8 rounded-2xl overflow-hidden">
               <Image
                 src={post.cover_image}
-                alt={title}
+                alt={title || 'Blog post'}
                 fill
                 className="object-cover"
                 priority
@@ -149,6 +150,58 @@ export default async function BlogPostPage({
                   >
                     {tag}
                   </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Latest Posts Section */}
+          {latestPosts.length > 0 && (
+            <div className="mt-12 pt-8 border-t border-neutral-200">
+              <h2 className="text-2xl font-bold text-[#1C1C1C] mb-6 font-manrope">
+                {t('latestPosts')}
+              </h2>
+              <div className="grid md:grid-cols-3 gap-6">
+                {latestPosts.map((latestPost) => (
+                  <Link
+                    key={latestPost.id}
+                    href={`/${locale}/blog/${latestPost.slug}`}
+                    className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-neutral-100"
+                  >
+                    {latestPost.cover_image && (
+                      <div className="relative h-48 overflow-hidden">
+                        <Image
+                          src={latestPost.cover_image}
+                          alt={getLocalizedField('title', latestPost) as string || 'Blog post'}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                    )}
+                    <div className="p-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <span className="text-xs font-semibold text-[#2EC4B6] bg-[#2EC4B6]/10 px-3 py-1 rounded-full">
+                          {latestPost.category}
+                        </span>
+                      </div>
+                      <h3 className="text-lg font-bold text-[#1C1C1C] mb-2 group-hover:text-[#2EC4B6] transition-colors line-clamp-2">
+                        {getLocalizedField('title', latestPost)}
+                      </h3>
+                      <p className="text-sm text-neutral-600 mb-3 line-clamp-2">
+                        {getLocalizedField('excerpt', latestPost)}
+                      </p>
+                      <div className="flex items-center gap-3 text-xs text-neutral-500">
+                        <div className="flex items-center gap-1">
+                          <Clock className="h-3 w-3" />
+                          <span>{latestPost.reading_time} {t('minRead')}</span>
+                        </div>
+                        <div className="flex items-center gap-1">
+                          <Eye className="h-3 w-3" />
+                          <span>{latestPost.views}</span>
+                        </div>
+                      </div>
+                    </div>
+                  </Link>
                 ))}
               </div>
             </div>

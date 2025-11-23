@@ -14,14 +14,26 @@
     },
     {
       "q": {
+        "he": "מה זו קפסולה/פוד?",
+        "en": "What is a capsule/pod?",
+        "fr": "Qu'est-ce qu'une capsule/pod ?"
+      },
+      "a": {
+        "he": "קפסולה היא תא שינה בסגנון יפני. הקפסולה משמשת לשינה בלבד ומצוידת במזרון, תאורה, חשמל ואוורור. שאר השירותים כגון מקלחות, שירותים, אזורי ישיבה וכו' נמצאים באזורים המשותפים.",
+        "en": "A pod is a Japanese-style sleeping cell. The pod is used for sleeping only and is equipped with a mattress, lighting, electricity, and ventilation. The rest of the services such as showers, toilets, sitting areas, etc. are in the common areas.",
+        "fr": "Une capsule est une cellule de couchage de style japonais. La capsule est utilisée uniquement pour dormir et est équipée d'un matelas, éclairage, électricité et ventilation. Les autres services tels que douches, toilettes, espaces assis, etc. se trouvent dans les espaces communs."
+      }
+    },
+    {
+      "q": {
         "he": "האם יש חניה במלון?",
         "en": "Is there parking at the hotel?",
         "fr": "Y a-t-il un parking à l'hôtel ?"
       },
       "a": {
-        "he": "אין חניה ייעודית במלון. ישנן חניות ציבוריות בתשלום בסביבה הקרובה.",
-        "en": "There is no dedicated parking at the hotel. There are paid public parking lots nearby.",
-        "fr": "Il n'y a pas de parking dédié à l'hôtel. Il existe des parkings publics payants à proximité."
+        "he": "אין חניה ייעודית למלון, אך ישנם מספר חניונים בתשלום ליד המלון: חניון ארי' שנקר 2, חניון יחזקאל קויפמן 9 (שארל קלור), וחניון יחזקאל קויפמן 16 (עין יעקב). המחיר נע בין 30-70 ש\"ח ליום.",
+        "en": "There is no parking that belongs to the hotel, but there are several paid parking lots near the hotel: Arye Shenkar 2, Yehezkel Koyfman 9 (Charles Clore), and Yehezkel Koyfman 16 (Ein Yaakov). The price varies between 30-70 NIS per day.",
+        "fr": "Il n'y a pas de parking appartenant à l'hôtel, mais il existe plusieurs parkings payants près de l'hôtel : Arye Shenkar 2, Yehezkel Koyfman 9 (Charles Clore), et Yehezkel Koyfman 16 (Ein Yaakov). Le prix varie entre 30-70 NIS par jour."
       }
     },
     {
@@ -31,9 +43,9 @@
         "fr": "Les serviettes sont-elles incluses ?"
       },
       "a": {
-        "he": "כן! אנחנו מספקים מגבות נקיות לכל אורח ללא עלות נוספת.",
-        "en": "Yes! We provide clean towels for every guest at no extra cost.",
-        "fr": "Oui ! Nous fournissons des serviettes propres pour chaque client sans frais supplémentaires."
+        "he": "כן! אנחנו מספקים מגבת גוף ופנים ללא עלות נוספת.",
+        "en": "Yes! We provide a body and face towel at no extra cost.",
+        "fr": "Oui ! Nous fournissons une serviette de corps et de visage sans frais supplémentaires."
       }
     },
     {
@@ -55,9 +67,45 @@
         "fr": "Le petit-déjeuner est-il inclus ?"
       },
       "a": {
-        "he": "לא מוגש ארוחת בוקר במלון, אך ישנם בתי קפה ומאפיות מעולים ברדיוס הליכה של דקות ספורות.",
-        "en": "Breakfast is not served at the hotel, but there are excellent cafes and bakeries within a few minutes' walk.",
-        "fr": "Le petit-déjeuner n'est pas servi à l'hôtel, mais il y a d'excellents cafés et boulangeries à quelques minutes à pied."
+        "he": "ארוחת בוקר אינה מוגשת ישירות במלון. עם זאת, ניתן להזמין ארוחת בוקר קונטיננטלית בבית הקפה ארומה הממוקם בקומת הקרקע של המלון.",
+        "en": "Breakfast is not directly served at the hotel. However, a continental breakfast is available at Aroma Café located on the ground floor of the hotel.",
+        "fr": "Le petit-déjeuner n'est pas directement servi à l'hôtel. Cependant, un petit-déjeuner continental est disponible au café Aroma situé au rez-de-chaussée de l'hôtel."
+      }
+    },
+    {
+      "q": {
+        "he": "מהן שעות ארוחת הבוקר?",
+        "en": "What are the breakfast hours?",
+        "fr": "Quelles sont les heures du petit-déjeuner ?"
+      },
+      "a": {
+        "he": "ימים א'-ה': 07:00-18:00, יום ו': 07:00-14:00.",
+        "en": "Sunday to Thursday: 07:00-18:00, Friday: 07:00-14:00.",
+        "fr": "Dimanche à jeudi : 07h00-18h00, Vendredi : 07h00-14h00."
+      }
+    },
+    {
+      "q": {
+        "he": "מה כלול בארוחת הבוקר?",
+        "en": "What is included in breakfast?",
+        "fr": "Qu'est-ce qui est inclus dans le petit-déjeuner ?"
+      },
+      "a": {
+        "he": "יש שתי אפשרויות: 1) כריך קרואסון עם סלמון ומשקה, 2) ארוחת בוקר ישראלית עם שתי ביצים לבחירה, סלט, טחינה, לחם וזיתים. כל ארוחה עולה 50 ש\"ח לאדם.",
+        "en": "There are two options: 1) Salmon croissant sandwich with drink, 2) Israeli breakfast with two eggs of your choice, salad, tahini, bread and olives. Each meal costs 50 NIS per person.",
+        "fr": "Il y a deux options : 1) Sandwich croissant au saumon avec boisson, 2) Petit-déjeuner israélien avec deux œufs au choix, salade, tahini, pain et olives. Chaque repas coûte 50 NIS par personne."
+      }
+    },
+    {
+      "q": {
+        "he": "האם יש קפה? מים חמים?",
+        "en": "Is there coffee? Hot water?",
+        "fr": "Y a-t-il du café ? De l'eau chaude ?"
+      },
+      "a": {
+        "he": "יש מכונות אוטומטיות (בתשלום), כמו גם מזנן מים (קר וחם) עם תה וסוכר (חינם).",
+        "en": "There are vending machines available (paid), and also a water bar (cold and hot) with tea and sugar (free).",
+        "fr": "Il y a des distributeurs automatiques disponibles (payants), ainsi qu'un distributeur d'eau (froide et chaude) avec thé et sucre (gratuit)."
       }
     },
     {
@@ -67,9 +115,21 @@
         "fr": "Puis-je entreposer mes bagages avant l'arrivée ou après le départ ?"
       },
       "a": {
-        "he": "כן, יש לנו לוקרים מאובטחים לאחסון חפצים בחינם.",
-        "en": "Yes, we have secure lockers for storing belongings free of charge.",
-        "fr": "Oui, nous avons des casiers sécurisés pour entreposer vos affaires gratuitement."
+        "he": "כן, יש חדר מטען לאורחים. לאחר הצ'ק-אאוט ניתן לשמור עד 15:00.",
+        "en": "Yes, there is a luggage room for guests. After check-out, you can store until 15:00.",
+        "fr": "Oui, il y a une bagagerie pour les clients. Après le départ, vous pouvez stocker jusqu'à 15h00."
+      }
+    },
+    {
+      "q": {
+        "he": "האם אפשר להשתמש באזורים הציבוריים אחרי הצ'ק-אאוט?",
+        "en": "Can I use the public areas after check-out?",
+        "fr": "Puis-je utiliser les espaces communs après le départ ?"
+      },
+      "a": {
+        "he": "כן, לאחר הצ'ק-אאוט ניתן להשתמש באזורים הציבוריים עד 15:00. לאחר מכן ניתן לשכור שימוש באזורים הציבוריים ובלוקרים תמורת תשלום (יש לשאול בקבלה).",
+        "en": "Yes, after check-out you can use the public areas until 15:00. After that, you can rent the use of the public areas and lockers for a fee (please ask at reception).",
+        "fr": "Oui, après le départ, vous pouvez utiliser les espaces communs jusqu'à 15h00. Après cela, vous pouvez louer l'utilisation des espaces communs et des casiers moyennant des frais (veuillez demander à la réception)."
       }
     },
     {
@@ -79,9 +139,21 @@
         "fr": "Quel est l'âge minimum pour réserver ?"
       },
       "a": {
-        "he": "גיל המינימום להזמנה הוא 18 שנים.",
-        "en": "The minimum age for booking is 18 years.",
-        "fr": "L'âge minimum pour réserver est de 18 ans."
+        "he": "גיל המינימום להזמנה הוא 18 שנים. ילדים מגיל 7 ומעלה מורשים לשהות בקפסולה בליווי הורה.",
+        "en": "The minimum age for booking is 18 years. Children aged 7 and above are allowed if accompanied by a parent in the capsule.",
+        "fr": "L'âge minimum pour réserver est de 18 ans. Les enfants à partir de 7 ans sont autorisés s'ils sont accompagnés d'un parent dans la capsule."
+      }
+    },
+    {
+      "q": {
+        "he": "אני בן/בת 17, האם אני יכול/ה להגיע?",
+        "en": "I am 17 years old, can I come?",
+        "fr": "J'ai 17 ans, puis-je venir ?"
+      },
+      "a": {
+        "he": "עד גיל 18 רק בליווי מבוגר השוהה במלון, או עם אישור הורים - ניתן לשלוח את המסמך החתום לאימייל: reservations@theopodhotel.com.",
+        "en": "Up to age 18 only accompanied by an adult staying at the hotel, or with parental permission - the signed document can be sent to email: reservations@theopodhotel.com.",
+        "fr": "Jusqu'à l'âge de 18 ans uniquement accompagné d'un adulte séjournant à l'hôtel, ou avec l'autorisation parentale - le document signé peut être envoyé par email : reservations@theopodhotel.com."
       }
     },
     {
@@ -98,6 +170,18 @@
     },
     {
       "q": {
+        "he": "איפה הכניסה לבניין?",
+        "en": "Where is the entrance to the building?",
+        "fr": "Où se trouve l'entrée du bâtiment ?"
+      },
+      "a": {
+        "he": "הכניסה מהפינה הדרומית של בית הטקסטיל (רחוב קאופמן 2 פינת רחוב שנקר).",
+        "en": "The entrance is from the southern corner of the Textile House building (Kaufman St. 2 corner with Shenkar St.).",
+        "fr": "L'entrée se trouve à l'angle sud du bâtiment Textile House (Rue Kaufman 2 angle rue Shenkar)."
+      }
+    },
+    {
+      "q": {
         "he": "מה מדיניות הביטולים?",
         "en": "What is the cancellation policy?",
         "fr": "Quelle est la politique d'annulation ?"
@@ -110,6 +194,18 @@
     },
     {
       "q": {
+        "he": "איך אפשר לבצע שינויים בהזמנה?",
+        "en": "How can I make changes to the reservation?",
+        "fr": "Comment puis-je modifier ma réservation ?"
+      },
+      "a": {
+        "he": "אם הזמנתם דרך האתר שלנו, אנא התקשרו ל-+972777565350 או בקשו שינוי באימייל: reservations@theopodhotel.com. אם הזמנתם דרך Booking.com התקשרו ל-+972777781800, דרך Expedia התקשרו ל-1809344185.",
+        "en": "If you reserved through our website, please call +972777565350 or request the change via email: reservations@theopodhotel.com. If you ordered through Booking.com call +972777781800, through Expedia call 1809344185.",
+        "fr": "Si vous avez réservé via notre site web, veuillez appeler +972777565350 ou demander le changement par email : reservations@theopodhotel.com. Si vous avez réservé via Booking.com, appelez +972777781800, via Expedia appelez 1809344185."
+      }
+    },
+    {
+      "q": {
         "he": "האם יש שירותים פרטיים בקפסולה?",
         "en": "Are there private bathrooms in the pod?",
         "fr": "Y a-t-il une salle de bain privée dans la capsule ?"
@@ -118,6 +214,222 @@
         "he": "לא, השירותים והמקלחות משותפים ונמצאים באזורים נפרדים למגדר. הם נקיים ומתוחזקים באופן קבוע.",
         "en": "No, bathrooms and showers are shared and located in gender-separated areas. They are clean and regularly maintained.",
         "fr": "Non, les toilettes et douches sont partagées et situées dans des zones séparées par genre. Elles sont propres et régulièrement entretenues."
+      }
+    },
+    {
+      "q": {
+        "he": "מה היחס בין תאי שירותים ומקלחות למספר הקפסולות?",
+        "en": "What is the ratio of toilet and shower cubicles to the number of pods?",
+        "fr": "Quel est le ratio entre les toilettes/douches et le nombre de capsules ?"
+      },
+      "a": {
+        "he": "לכל 6 קפסולות יש שירותים ומקלחת. האורחים יכולים להשתמש גם בשירותים ומקלחות באזורים אחרים.",
+        "en": "Each 6 pods have a toilet and shower. Guests can use toilets and showers in other sections as well.",
+        "fr": "Chaque 6 capsules disposent de toilettes et d'une douche. Les clients peuvent également utiliser les toilettes et douches dans d'autres sections."
+      }
+    },
+    {
+      "q": {
+        "he": "האם יש טלוויזיה בקפסולה?",
+        "en": "Is there a TV in the pod?",
+        "fr": "Y a-t-il une télévision dans la capsule ?"
+      },
+      "a": {
+        "he": "לא.",
+        "en": "No.",
+        "fr": "Non."
+      }
+    },
+    {
+      "q": {
+        "he": "האם יש מקרר, מיקרוגל?",
+        "en": "Is there a refrigerator or microwave?",
+        "fr": "Y a-t-il un réfrigérateur ou un micro-ondes ?"
+      },
+      "a": {
+        "he": "כרגע לא.",
+        "en": "Currently not.",
+        "fr": "Actuellement non."
+      }
+    },
+    {
+      "q": {
+        "he": "מהם גדלי הקפסולות?",
+        "en": "What are the sizes of the pods?",
+        "fr": "Quelles sont les tailles des capsules ?"
+      },
+      "a": {
+        "he": "את גדלי הקפסולות ניתן לראות באתר בעמוד הקפסולות (בחרו קפסולה מתאימה).",
+        "en": "The size of the pods can be seen on the website on the capsules page (choose a suitable pod).",
+        "fr": "La taille des capsules peut être consultée sur le site web sur la page des capsules (choisissez une capsule appropriée)."
+      }
+    },
+    {
+      "q": {
+        "he": "כמה עולה קפסולה?",
+        "en": "How much does a pod cost?",
+        "fr": "Combien coûte une capsule ?"
+      },
+      "a": {
+        "he": "קודם כל, זו לא חדר, זו קפסולה. יש 7 סוגי קפסולות. המחיר תלוי בסוג הקפסולה ובתאריך שבחרתם (ניתן לראות זמינות ומחירים באתר: www.theopodhotel.com).",
+        "en": "First of all, it's not a room, it's a pod. There are 7 types of pods. The price depends on the type of pod and the date you choose (you can see availability and prices on our website: www.theopodhotel.com).",
+        "fr": "Tout d'abord, ce n'est pas une chambre, c'est une capsule. Il existe 7 types de capsules. Le prix dépend du type de capsule et de la date que vous choisissez (vous pouvez voir la disponibilité et les prix sur notre site : www.theopodhotel.com)."
+      }
+    },
+    {
+      "q": {
+        "he": "האם יש חדר לשלושה אנשים?",
+        "en": "Do you have a room for three people?",
+        "fr": "Avez-vous une chambre pour trois personnes ?"
+      },
+      "a": {
+        "he": "לא, כל הקפסולות מיועדות לאדם אחד או לזוג.",
+        "en": "No, all the pods are for a single person or a couple.",
+        "fr": "Non, toutes les capsules sont pour une personne seule ou un couple."
+      }
+    },
+    {
+      "q": {
+        "he": "המחיר ב-160 ש\"ח מופיע באתר, האם זה המחיר הסופי?",
+        "en": "The price of 160 NIS is listed on the website, is this the final price?",
+        "fr": "Le prix de 160 NIS est affiché sur le site, est-ce le prix final ?"
+      },
+      "a": {
+        "he": "המחיר משתנה, וכן, ב-Booking ובמנועי הזמנה אחרים, המחיר תמיד לפני מע\"ם (רק תיירים לא משלמים מס זה). רק באתר (בעברית) המחיר כולל מע\"ם.",
+        "en": "The price is variable, also, in Booking and other booking engines, the price is always before VAT (only tourists do not pay this tax). Only on the Hebrew website the price includes VAT.",
+        "fr": "Le prix est variable, et aussi, dans Booking et d'autres moteurs de réservation, le prix est toujours hors TVA (seuls les touristes ne paient pas cette taxe). Uniquement sur le site en hébreu, le prix inclut la TVA."
+      }
+    },
+    {
+      "q": {
+        "he": "האם אפשר להזמין קפסולה באמצע היום, למשל בין 10:00 ל-22:00?",
+        "en": "Is it possible to book a pod in the middle of the day, for example between 10 am and 10 pm?",
+        "fr": "Est-il possible de réserver une capsule en milieu de journée, par exemple entre 10h et 22h ?"
+      },
+      "a": {
+        "he": "כדי לאבטח חדר במהלך שעות אלה, יש להזמין את היום שלפני, ולהוסיף תשלום חלקי עבור הלילה הנוסף, כך שהתשלום יהיה כ-150% מעלות הלילה.",
+        "en": "In order to secure a room during these hours, you must book the day before, and add a partial payment for the additional night, so that the payment will be approximately 150% of the cost of a night.",
+        "fr": "Afin de sécuriser une chambre pendant ces heures, vous devez réserver la veille et ajouter un paiement partiel pour la nuit supplémentaire, de sorte que le paiement sera d'environ 150% du coût d'une nuit."
+      }
+    },
+    {
+      "q": {
+        "he": "האם אפשר צ'ק-אאוט מאוחר?",
+        "en": "Is it possible to check out late?",
+        "fr": "Est-il possible de faire un départ tardif ?"
+      },
+      "a": {
+        "he": "הצ'ק-אאוט הוא בשעה 11:00. לאחר מכן ניתן להישאר באזורים המשותפים עד 12:00 במידת הצורך. אם יש זמינות, ניתן להוסיף תשלום עבור צ'ק-אאוט מאוחר (עד 50% מהלילה הבא).",
+        "en": "Check out is at 11:00 am. After that you can stay in the common areas until noon if necessary. If there is availability, you can add a fee for late checkout (up to 50% of the following night).",
+        "fr": "Le départ est à 11h00. Après cela, vous pouvez rester dans les espaces communs jusqu'à midi si nécessaire. S'il y a de la disponibilité, vous pouvez ajouter des frais pour un départ tardif (jusqu'à 50% de la nuit suivante)."
+      }
+    },
+    {
+      "q": {
+        "he": "אם אני מגיע/ה מאוחר בלילה, האם אוכל לעשות צ'ק-אאוט אחרי 24 שעות?",
+        "en": "If I arrive late at night, can I check out after 24 hours?",
+        "fr": "Si j'arrive tard dans la nuit, puis-je partir après 24 heures ?"
+      },
+      "a": {
+        "he": "הצ'ק-אאוט תמיד בשעה 11:00 ביום העזיבה (לפי ההזמנה). לאחר הצ'ק-אאוט אתם מוזמנים לשבת וליהנות מהאזורים המשותפים בבר בפנים ובחוץ, ולהשאיר את המזוודות באחסון עד 15:00.",
+        "en": "Check-out is always at 11:00 am on the day of departure (according to the reservation). After check-out, you are welcome to sit and enjoy the common areas in the bar inside and outside, and leave your luggage in storage until 15:00.",
+        "fr": "Le départ est toujours à 11h00 le jour du départ (selon la réservation). Après le départ, vous êtes invités à vous asseoir et profiter des espaces communs du bar à l'intérieur et à l'extérieur, et à laisser vos bagages en consigne jusqu'à 15h00."
+      }
+    },
+    {
+      "q": {
+        "he": "אני מגיע/ה בשעה 2 בלילה, האם זה אפשרי?",
+        "en": "I arrive at 2 am, is it possible?",
+        "fr": "J'arrive à 2h du matin, est-ce possible ?"
+      },
+      "a": {
+        "he": "כן, דלפק הקבלה פתוח 24/7, צ'ק-אין זמין עד 04:00 למחרת (לשהייה של לילה אחד).",
+        "en": "Yes, the reception desk is open 24/7, check-in is available until 4 am the next day (for 1 night stay).",
+        "fr": "Oui, la réception est ouverte 24h/24 et 7j/7, l'enregistrement est disponible jusqu'à 4h du matin le lendemain (pour un séjour d'une nuit)."
+      }
+    },
+    {
+      "q": {
+        "he": "האם אפשר להזמין מונית מהשדה?",
+        "en": "Can I order a taxi from the airport?",
+        "fr": "Puis-je commander un taxi depuis l'aéroport ?"
+      },
+      "a": {
+        "he": "יש לנו שירות מונית לשדה בלבד. מהשדה ניתן לקחת מונית רגילה.",
+        "en": "We have a taxi service to the airport only. From the airport you can take a regular taxi.",
+        "fr": "Nous avons un service de taxi vers l'aéroport uniquement. Depuis l'aéroport, vous pouvez prendre un taxi régulier."
+      }
+    },
+    {
+      "q": {
+        "he": "האם אפשר לקנות כרטיס סים אצלכם?",
+        "en": "Can I buy a SIM card from you?",
+        "fr": "Puis-je acheter une carte SIM chez vous ?"
+      },
+      "a": {
+        "he": "כן, עולה 140 ש\"ח עבור 250 GB אינטרנט, 3000 שיחות ו-SMS, ו-40 ש\"ח הולכים לשיחות בינלאומיות. גלישה ברשתות חברתיות כמו WhatsApp, Facebook, Waze וכו' אינה מוגבלת.",
+        "en": "Yes, it costs 140 NIS for 250 GB of Internet, 3000 phone calls and SMS, and 40 NIS goes for international calls. Browsing social networking sites such as WhatsApp, Facebook, Waze, etc. is unlimited.",
+        "fr": "Oui, cela coûte 140 NIS pour 250 Go d'Internet, 3000 appels téléphoniques et SMS, et 40 NIS pour les appels internationaux. La navigation sur les sites de réseaux sociaux tels que WhatsApp, Facebook, Waze, etc. est illimitée."
+      }
+    },
+    {
+      "q": {
+        "he": "האם אפשר לקנות/לטעון רב-קו אצלכם?",
+        "en": "Can I buy/refill Rav Kav from you?",
+        "fr": "Puis-je acheter/recharger une Rav Kav chez vous ?"
+      },
+      "a": {
+        "he": "כן, כרטיס רב-קו עולה 15 ש\"ח (מזומן בלבד), ואז ניתן לטעון אותו (בכרטיס אשראי) לנסיעה בודדת, כרטיס יומי או ערך נטען.",
+        "en": "Yes, the Rav Kav card costs 15 NIS (cash only), then it can be charged (with credit card) for a single trip, daily pass, or loaded value.",
+        "fr": "Oui, la carte Rav Kav coûte 15 NIS (espèces uniquement), puis elle peut être rechargée (par carte de crédit) pour un trajet unique, un pass journalier ou une valeur chargée."
+      }
+    },
+    {
+      "q": {
+        "he": "האם יש בר במלון?",
+        "en": "Do you serve drinks at the bar?",
+        "fr": "Servez-vous des boissons au bar ?"
+      },
+      "a": {
+        "he": "לא, אין לנו בר.",
+        "en": "No, we don't have a bar.",
+        "fr": "Non, nous n'avons pas de bar."
+      }
+    },
+    {
+      "q": {
+        "he": "האם מותר להביא/להזמין אוכל למלון?",
+        "en": "Is it allowed to bring/order food to the hotel?",
+        "fr": "Est-il permis d'apporter/commander de la nourriture à l'hôtel ?"
+      },
+      "a": {
+        "he": "כן, אך במגבלות סבירות. אין מקרר לאחסון אוכל.",
+        "en": "Yes, but in reasonable limits. There is no refrigerator to store food.",
+        "fr": "Oui, mais dans des limites raisonnables. Il n'y a pas de réfrigérateur pour stocker la nourriture."
+      }
+    },
+    {
+      "q": {
+        "he": "האם אפשר להזמין קפסולה עם כרטיס אשראי ולשלם במזומן במלון?",
+        "en": "Is it possible to reserve a pod with credit card and pay in cash at the hotel?",
+        "fr": "Est-il possible de réserver une capsule avec une carte de crédit et de payer en espèces à l'hôtel ?"
+      },
+      "a": {
+        "he": "כן, יש אפשרות כזו. שימו לב שתשלום במזומן אפשרי רק בשעות הפעילות של הקבלה: בתקופה זו של המלחמה, שעות הקבלה קוצרו: ימים א'-ד' בין 9:00-15:00 ובין 19:00-22:00, ימים ה'-ו' בין 10:00-02:00.",
+        "en": "Yes, there is such an option. Note that payment in cash is possible only during the operating hours of the reception: During this period of the war, reception hours were shortened: Sunday to Wednesday between 9:00 am and 15:00 pm and between 19:00 pm and 22:00 pm, Thursday and Friday between 10:00 am and 2:00 am.",
+        "fr": "Oui, il y a une telle option. Notez que le paiement en espèces n'est possible que pendant les heures d'ouverture de la réception : Pendant cette période de guerre, les heures de réception ont été raccourcies : Dimanche à mercredi entre 9h00 et 15h00 et entre 19h00 et 22h00, jeudi et vendredi entre 10h00 et 2h00."
+      }
+    },
+    {
+      "q": {
+        "he": "האם אפשר לשלם במזומן במלון?",
+        "en": "Is it possible to pay in cash at the hotel?",
+        "fr": "Est-il possible de payer en espèces à l'hôtel ?"
+      },
+      "a": {
+        "he": "כן, ניתן לשלם במזומן (שקלים, דולרים או אירו), אך כדי לבצע הזמנה יש להזין/לספק פרטי כרטיס אשראי (רק לביטחון). לא ניתן להזמין ללא כרטיס אשראי!",
+        "en": "Yes, you can pay in cash (shekels, US dollars or euros), but to make a reservation you must enter/provide credit card details (just for security). It is not possible to book without a credit card!",
+        "fr": "Oui, vous pouvez payer en espèces (shekels, dollars américains ou euros), mais pour faire une réservation, vous devez entrer/fournir les détails d'une carte de crédit (juste pour la sécurité). Il n'est pas possible de réserver sans carte de crédit !"
       }
     }
   ]

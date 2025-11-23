@@ -2,12 +2,15 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import { Cookie, X } from 'lucide-react';
+import { Cookie } from 'lucide-react';
+import Link from 'next/link';
 
 export function CookieConsent() {
   const [showBanner, setShowBanner] = useState(false);
   const t = useTranslations('cookies');
+  const locale = useLocale();
 
   useEffect(() => {
     // Check if user has already accepted cookies
@@ -50,9 +53,17 @@ export function CookieConsent() {
               <h3 className="text-lg font-bold text-[#1C1C1C] mb-2 font-manrope">
                 {t('title')}
               </h3>
-              <p className="text-sm text-neutral-600 leading-relaxed">
+              <p className="text-sm text-neutral-600 leading-relaxed mb-3">
                 {t('description')}
               </p>
+
+              {/* Learn More Link */}
+              <Link
+                href={`/${locale}/privacy`}
+                className="text-sm text-[#2EC4B6] hover:text-[#28b0a3] font-medium underline transition-colors"
+              >
+                {t('learnMore')}
+              </Link>
             </div>
 
             {/* Actions */}

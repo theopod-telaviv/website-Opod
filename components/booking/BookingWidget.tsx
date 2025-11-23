@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { useTranslations } from "next-intl";
 import { Calendar } from "@/components/ui/calendar";
 import { Button } from "@/components/ui/button";
@@ -23,6 +23,19 @@ export function BookingWidget({ locale, capsuleSlug }: BookingWidgetProps) {
   const [adults, setAdults] = useState<string>("1");
   const [children, setChildren] = useState<string>("0");
   const [rooms, setRooms] = useState<string>("1");
+  const [checkoutOpen, setCheckoutOpen] = useState(false);
+  const [checkinOpen, setCheckinOpen] = useState(false);
+
+  const handleCheckinSelect = (date: Date | undefined) => {
+    setCheckin(date);
+    if (date) {
+      // Close checkin popover and open checkout popover
+      setCheckinOpen(false);
+      setTimeout(() => {
+        setCheckoutOpen(true);
+      }, 100);
+    }
+  };
 
   const handleBooking = () => {
     const criteria = {
@@ -56,11 +69,12 @@ export function BookingWidget({ locale, capsuleSlug }: BookingWidgetProps) {
     <div className="bg-white border border-neutral-200 rounded-2xl p-6 shadow-lg">
       <div className="space-y-4">
         <div className="grid grid-cols-2 gap-4">
+          {/* CHECKIN (qui est maintenant "Départ/Check-out" dans les traductions) EN PREMIER */}
           <div>
             <label className="text-sm font-medium text-neutral-700 mb-2 block">
               {t('checkin')}
             </label>
-            <Popover>
+            <Popover open={checkinOpen} onOpenChange={setCheckinOpen}>
               <PopoverTrigger asChild>
                 <Button
                   variant="outline"
@@ -74,7 +88,7 @@ export function BookingWidget({ locale, capsuleSlug }: BookingWidgetProps) {
                 <Calendar
                   mode="single"
                   selected={checkin}
-                  onSelect={setCheckin}
+                  onSelect={handleCheckinSelect}
                   disabled={(date) => date < new Date()}
                   initialFocus
                 />
@@ -82,11 +96,12 @@ export function BookingWidget({ locale, capsuleSlug }: BookingWidgetProps) {
             </Popover>
           </div>
 
+          {/* CHECKOUT (qui est maintenant "Arrivée/Check-in" dans les traductions) EN DEUXIÈME */}
           <div>
             <label className="text-sm font-medium text-neutral-700 mb-2 block">
               {t('checkout')}
             </label>
-            <Popover>
+            <Popover open={checkoutOpen} onOpenChange={setCheckoutOpen}>
               <PopoverTrigger asChild>
                 <Button
                   variant="outline"
@@ -100,7 +115,10 @@ export function BookingWidget({ locale, capsuleSlug }: BookingWidgetProps) {
                 <Calendar
                   mode="single"
                   selected={checkout}
-                  onSelect={setCheckout}
+                  onSelect={(date) => {
+                    setCheckout(date);
+                    setCheckoutOpen(false);
+                  }}
                   disabled={(date) => date < (checkin || new Date())}
                   initialFocus
                 />

@@ -86,7 +86,7 @@ export function CapsuleCard({ capsule, locale, currency = 'ILS' }: CapsuleCardPr
             <div>
               <p className="text-sm text-neutral-500">{t('from')}</p>
               <p className="text-2xl font-bold text-[#2EC4B6]">
-                {capsule.price_from[currency]} {currency}
+                {capsule.price_from[currency]} {currency}{t('excludingVat')}
                 <span className="text-sm font-normal text-neutral-500">/{t('night')}</span>
               </p>
             </div>

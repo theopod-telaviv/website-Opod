@@ -36,34 +36,54 @@ export interface BlogPost {
 }
 
 export async function getBlogPosts(): Promise<BlogPost[]> {
-  const { data, error } = await supabase
-    .from('blog_posts')
-    .select('*')
-    .eq('published', true)
-    .order('published_at', { ascending: false });
+  try {
+    const { data, error } = await supabase
+      .from('blog_posts')
+      .select('*')
+      .eq('published', true)
+      .order('published_at', { ascending: false });
 
-  if (error) {
-    console.error('Error fetching blog posts:', error);
+    if (error) {
+      console.error('Error fetching blog posts:', error);
+      return [];
+    }
+
+    // Filter out posts with missing critical data
+    const validPosts = (data || []).filter((post) => {
+      return post &&
+             post.slug &&
+             post.cover_image &&
+             (post.title_en || post.title_fr || post.title_he);
+    });
+
+    return validPosts;
+  } catch (error) {
+    console.error('Exception in getBlogPosts:', error);
+    // Return empty array instead of throwing to prevent build failures
     return [];
   }
-
-  return data || [];
 }
 
 export async function getBlogPost(slug: string): Promise<BlogPost | null> {
-  const { data, error } = await supabase
-    .from('blog_posts')
-    .select('*')
-    .eq('slug', slug)
-    .eq('published', true)
-    .single();
+  try {
+    const { data, error } = await supabase
+      .from('blog_posts')
+      .select('*')
+      .eq('slug', slug)
+      .eq('published', true)
+      .single();
 
-  if (error) {
-    console.error('Error fetching blog post:', error);
+    if (error) {
+      console.error('Error fetching blog post:', error);
+      return null;
+    }
+
+    return data;
+  } catch (error) {
+    console.error('Exception in getBlogPost:', error);
+    // Return null instead of throwing to prevent build failures
     return null;
   }
-
-  return data;
 }
 
 export async function incrementViews(slug: string): Promise<void> {

@@ -23,7 +23,6 @@ export function Header({ locale }: HeaderProps) {
   const navigation = [
     { name: t('capsules'), href: `/${locale}/capsules` },
     { name: t('hotel'), href: `/${locale}/hotel` },
-    { name: t('experiences'), href: `/${locale}/experience-tel-aviv` },
     { name: t('blog'), href: `/${locale}/blog` },
     { name: t('faq'), href: `/${locale}/faq` },
     { name: t('contact'), href: `/${locale}/contact` },
