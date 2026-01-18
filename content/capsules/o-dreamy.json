@@ -17,11 +17,18 @@
   "accessible": false,
   "balcony": false,
   "price_from": {
-    "ILS": 205,
+    "ILS": 229,
     "USD": 56,
     "EUR": 52
   },
-  "amenities": ["wifi", "towels", "lockers", "24_7_reception", "air_conditioning", "usb_charging"],
+  "amenities": [
+    "wifi",
+    "towels",
+    "lockers",
+    "24_7_reception",
+    "air_conditioning",
+    "usb_charging"
+  ],
   "images": [
     "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/4-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute/1-%20the-o-pod-hotel-tel-aviv-o-dreamy-single-tall-room.webp",
     "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/4-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute/2-%20o-dreamy-single-tall-room-the-o-pod-hotel-tel-aviv.webp",

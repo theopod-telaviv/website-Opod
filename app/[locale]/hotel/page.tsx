@@ -8,9 +8,9 @@ import { Clock, Lock, Droplets, Wind, Wifi, MapPin, Users, Shield, Newspaper } f
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }) {
   const descriptions = {
-    en: "Modern pod hotel in Tel Aviv by the Mediterranean. 24/7 reception, secure lockers, modern showers. Steps from the beach. Book from 165₪!",
-    fr: "Hôtel capsule moderne à Tel Aviv au bord de la Méditerranée. Réception 24/7, casiers sécurisés, douches modernes. À deux pas de la plage. À partir de 165₪ !",
-    he: "מלון קפסולות מודרני בתל אביב על חוף הים התיכון. קבלה 24/7, לוקרים מאובטחים, מקלחות מודרניות. צעדים מהחוף. מ-165₪!"
+    en: "Modern pod hotel in Tel Aviv by the Mediterranean. 24/7 reception, secure lockers, modern showers. Steps from the beach. Book from 179₪!",
+    fr: "Hôtel capsule moderne à Tel Aviv au bord de la Méditerranée. Réception 24/7, casiers sécurisés, douches modernes. À deux pas de la plage. À partir de 179₪ !",
+    he: "מלון קפסולות מודרני בתל אביב על חוף הים התיכון. קבלה 24/7, לוקרים מאובטחים, מקלחות מודרניות. צעדים מהחוף. מ-179₪!"
   };
 
   const titles = {

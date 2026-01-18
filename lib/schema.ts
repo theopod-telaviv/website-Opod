@@ -9,9 +9,9 @@ export function getOrganizationSchema(locale: string) {
     logo: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-favicon-512x512.png',
     image: 'https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-images-site-web/logo-app-share/the-o-pod-hotel-og-home.png',
     description: {
-      he: 'מלון הקפסולות הזול והממוקם הטוב ביותר בתל אביב מול הים החל מ-165₪. מלון קפסולות מודרני צעדים מחוף הים התיכון.',
-      en: 'The cheapest and best-located pod hotel in Tel Aviv facing the sea from 165₪. Modern pod hotel steps from the Mediterranean beach.',
-      fr: "L'hôtel capsule le moins cher et le mieux placé de Tel Aviv en face de la mer à partir de 165₪. Hôtel capsule moderne à deux pas de la plage.",
+      he: 'מלון הקפסולות הזול והממוקם הטוב ביותר בתל אביב מול הים החל מ-179₪. מלון קפסולות מודרני צעדים מחוף הים התיכון.',
+      en: 'The cheapest and best-located pod hotel in Tel Aviv facing the sea from 179₪. Modern pod hotel steps from the Mediterranean beach.',
+      fr: "L'hôtel capsule le moins cher et le mieux placé de Tel Aviv en face de la mer à partir de 179₪. Hôtel capsule moderne à deux pas de la plage.",
     }[locale],
     address: {
       '@type': 'PostalAddress',

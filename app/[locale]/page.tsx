@@ -14,9 +14,9 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   const t = await getTranslations({ locale, namespace: 'hero' });
 
   const descriptions = {
-    en: "Your hotel in Tel Aviv by the Mediterranean Sea from 165₪. Modern pod hotel steps from the beach. Book your stay now!",
-    fr: "Votre hôtel à Tel Aviv au bord de la Méditerranée à partir de 165₪. Hôtel capsule moderne à deux pas de la plage. Réservez maintenant !",
-    he: "המלון שלכם בתל אביב על חוף הים התיכון מ-165₪. מלון קפסולות מודרני צעדים מהחוף. הזמינו עכשיו!"
+    en: "Your hotel in Tel Aviv by the Mediterranean Sea from 179₪. Modern pod hotel steps from the beach. Book your stay now!",
+    fr: "Votre hôtel à Tel Aviv au bord de la Méditerranée à partir de 179₪. Hôtel capsule moderne à deux pas de la plage. Réservez maintenant !",
+    he: "המלון שלכם בתל אביב על חוף הים התיכון מ-179₪. מלון קפסולות מודרני צעדים מהחוף. הזמינו עכשיו!"
   };
 
   const titles = {

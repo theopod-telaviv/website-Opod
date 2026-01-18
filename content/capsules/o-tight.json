@@ -18,11 +18,17 @@
   "accessible": false,
   "balcony": false,
   "price_from": {
-    "ILS": 165,
+    "ILS": 179,
     "USD": 45,
     "EUR": 42
   },
-  "amenities": ["wifi", "towels", "lockers", "24_7_reception", "air_conditioning"],
+  "amenities": [
+    "wifi",
+    "towels",
+    "lockers",
+    "24_7_reception",
+    "air_conditioning"
+  ],
   "images": [
     "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/1-%20O%20Tight%20-%20Chambre%20Simple/2-%20the-o-pod-hotel-tel-aviv-single-capsule-room.webp",
     "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/1-%20O%20Tight%20-%20Chambre%20Simple/1-%20the-o-pod-hotel-tel-aviv-single-capsule-room.webp",

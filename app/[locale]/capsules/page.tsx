@@ -9,15 +9,15 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   const t = await getTranslations({ locale, namespace: 'capsules' });
 
   const descriptions = {
-    en: "Discover our modern pod accommodations in Tel Aviv from 165₪. Solo, double, and sea-view capsules. Book your perfect pod by the Mediterranean!",
-    fr: "Découvrez nos capsules modernes à Tel Aviv à partir de 165₪. Capsules solo, double et vue mer. Réservez votre pod parfait au bord de la Méditerranée !",
-    he: "גלו את הקפסולות המודרניות שלנו בתל אביב מ-165₪. קפסולות יחיד, זוגי ונוף ים. הזמינו את הפוד המושלם שלכם על חוף הים התיכון!"
+    en: "Discover our modern pod accommodations in Tel Aviv from 179₪. Solo, double, and sea-view capsules. Book your perfect pod by the Mediterranean!",
+    fr: "Découvrez nos capsules modernes à Tel Aviv à partir de 179₪. Capsules solo, double et vue mer. Réservez votre pod parfait au bord de la Méditerranée !",
+    he: "גלו את הקפסולות המודרניות שלנו בתל אביב מ-179₪. קפסולות יחיד, זוגי ונוף ים. הזמינו את הפוד המושלם שלכם על חוף הים התיכון!"
   };
 
   const titles = {
-    en: "Capsules | The O Pod Tel Aviv - From 165₪",
-    fr: "Capsules | The O Pod Tel Aviv - Dès 165₪",
-    he: "קפסולות | The O Pod תל אביב - מ-165₪"
+    en: "Capsules | The O Pod Tel Aviv - From 179₪",
+    fr: "Capsules | The O Pod Tel Aviv - Dès 179₪",
+    he: "קפסולות | The O Pod תל אביב - מ-179₪"
   };
 
   const description = descriptions[locale as keyof typeof descriptions] || descriptions.en;
