@@ -1,0 +1,19 @@
+{
+  "id": "carmel-market",
+  "title": {
+    "he": "שוק הכרמל",
+    "en": "Carmel Market",
+    "fr": "Marché du Carmel"
+  },
+  "category": "food",
+  "distance_min_walk": 12,
+  "lat": 32.0742,
+  "lng": 34.7695,
+  "image": "/images/poi/carmel-market.jpg",
+  "desc": {
+    "he": "שוק תוסס עם פירות טריים, ירקות, תבלינים, אוכל רחוב וממתקים מקומיים. חוויה אותנטית של תל אביב היומיומית.",
+    "en": "Vibrant market with fresh fruits, vegetables, spices, street food, and local sweets. An authentic experience of everyday Tel Aviv life.",
+    "fr": "Marché animé avec fruits frais, légumes, épices, nourriture de rue et douceurs locales. Une expérience authentique de la vie quotidienne à Tel Aviv."
+  },
+  "maps_url": "https://maps.google.com/?q=Carmel+Market+Tel+Aviv"
+}

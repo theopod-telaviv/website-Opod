@@ -1,0 +1,40 @@
+{
+  "id": "o-dreamy-sea-view",
+  "name": {
+    "he": "O Dreamy - חדר יחיד גבוה נוף ים",
+    "en": "O Dreamy - Tall Single Room Sea View",
+    "fr": "O Dreamy - Chambre Simple Haute Vue Mer"
+  },
+  "slug": "o-dreamy-sea-view",
+  "occupancy": 1,
+  "bed": "1.20 x 2.00 m",
+  "dimensions_m": {
+    "w": 1.50,
+    "l": 2.15,
+    "h": 1.10
+  },
+  "sea_view": true,
+  "accessible": false,
+  "balcony": false,
+  "price_from": {
+    "ILS": 299,
+    "USD": 82,
+    "EUR": 75
+  },
+  "amenities": ["wifi", "towels", "lockers", "24_7_reception", "air_conditioning", "usb_charging", "sea_view"],
+  "images": [
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/5-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute%20Vue%20Mer/1-%20the-o-pod-hotel-tel-aviv-o-dreamy-sea-view-single-tall-room.webp",
+    "https://ljzzccjrxialnmbypvox.supabase.co/storage/v1/object/public/images/2-%20images%20site%20web/0-%20Chambres/5-%20O%20Dreamy%20-%20Chambre%20Simple%20Haute%20Vue%20Mer/2-o-dreamy-sea-view-single-tall-room-the-o-pod-hotel-tel-aviv.webp"
+  ],
+  "short": {
+    "he": "חדר יחיד גבוה עם נוף מרהיב לים התיכון.",
+    "en": "Tall single room with stunning Mediterranean Sea view.",
+    "fr": "Chambre simple haute avec vue imprenable sur la mer Méditerranée."
+  },
+  "description": {
+    "he": "התעוררו לנוף של הים התיכון בחדר O Dreamy Sea View שלנו. חדר יחיד גבוה ומרווח עם חלון גדול המשקיף ישירות לים. כולל את כל השירותים של O Dreamy הרגילה בתוספת נוף בלתי נשכח.",
+    "en": "Wake up to views of the Mediterranean Sea in our O Dreamy Sea View room. A spacious tall single room with a large window overlooking the sea. Includes all amenities of the regular O Dreamy plus an unforgettable view.",
+    "fr": "Réveillez-vous avec vue sur la mer Méditerranée dans notre chambre O Dreamy Vue Mer. Une chambre simple haute et spacieuse avec une grande fenêtre donnant sur la mer. Comprend toutes les commodités de l'O Dreamy standard plus une vue inoubliable."
+  },
+  "faq": []
+}

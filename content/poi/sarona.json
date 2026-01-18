@@ -1,0 +1,19 @@
+{
+  "id": "sarona",
+  "title": {
+    "he": "שרונה מרקט",
+    "en": "Sarona Market",
+    "fr": "Marché Sarona"
+  },
+  "category": "food",
+  "distance_min_walk": 20,
+  "lat": 32.0723,
+  "lng": 34.7875,
+  "image": "/images/poi/sarona.jpg",
+  "desc": {
+    "he": "שוק גורמה מקורה עם עמדות אוכל, מאפיות, גלידריות ומסעדות. מושלם לארוחת צהריים או קניית מוצרים איכותיים.",
+    "en": "Indoor gourmet market with food stalls, bakeries, ice cream shops, and restaurants. Perfect for lunch or buying quality products.",
+    "fr": "Marché gastronomique couvert avec stands de nourriture, boulangeries, glaciers et restaurants. Parfait pour déjeuner ou acheter des produits de qualité."
+  },
+  "maps_url": "https://maps.google.com/?q=Sarona+Market+Tel+Aviv"
+}

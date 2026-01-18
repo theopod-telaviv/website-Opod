@@ -1,0 +1,19 @@
+{
+  "id": "jaffa",
+  "title": {
+    "he": "יפו העתיקה",
+    "en": "Old Jaffa",
+    "fr": "Vieux Jaffa"
+  },
+  "category": "culture",
+  "distance_min_walk": 25,
+  "lat": 32.0543,
+  "lng": 34.7516,
+  "image": "/images/poi/jaffa.jpg",
+  "desc": {
+    "he": "נמל עתיק עם גלריות אמנות, סימטאות אבן מרוצפות ובתי קפה מקסימים. התהלכו בשוק הפשפשים או תיהנו מנוף הים מגני הפיסגה.",
+    "en": "Historic port with art galleries, cobblestone alleys, and charming cafes. Walk through the flea market or enjoy sea views from the hilltop gardens.",
+    "fr": "Port historique avec galeries d'art, ruelles pavées et cafés charmants. Promenez-vous dans le marché aux puces ou profitez de la vue sur la mer depuis les jardins."
+  },
+  "maps_url": "https://maps.google.com/?q=Old+Jaffa+Tel+Aviv"
+}

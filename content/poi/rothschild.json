@@ -1,0 +1,19 @@
+{
+  "id": "rothschild",
+  "title": {
+    "he": "שדרות רוטשילד",
+    "en": "Rothschild Boulevard",
+    "fr": "Boulevard Rothschild"
+  },
+  "category": "culture",
+  "distance_min_walk": 10,
+  "lat": 32.0653,
+  "lng": 34.7713,
+  "image": "/images/poi/rothschild.jpg",
+  "desc": {
+    "he": "שדרה מפורסמת עם ארכיטקטורת באוהאוס, עצים עתיקים, בתי קפה ומסעדות טרנדיות. לב התרבות והעסקים של תל אביב.",
+    "en": "Famous boulevard with Bauhaus architecture, ancient trees, trendy cafes and restaurants. The cultural and business heart of Tel Aviv.",
+    "fr": "Boulevard célèbre avec architecture Bauhaus, arbres anciens, cafés et restaurants branchés. Le cœur culturel et d'affaires de Tel Aviv."
+  },
+  "maps_url": "https://maps.google.com/?q=Rothschild+Boulevard+Tel+Aviv"
+}
